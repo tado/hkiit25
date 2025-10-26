@@ -1,8 +1,3 @@
-はい、承知いたしました。
-ご指定のワークショップのアウトラインを英語に翻訳します。Markdownの書式はそのまま維持します。
-
-***
-
 # HKIIT Workshop
 
 ## Applications to be Used
