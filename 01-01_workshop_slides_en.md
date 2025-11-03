@@ -162,6 +162,8 @@ Through 6 days of intensive learning, you will acquire **practical skills to exp
 
 ✅ Master basic TidalCycles syntax and freely write patterns
 
+✅ Build music using complex rhythm patterns and effects
+
 ✅ Think by connecting music theory and coding
 
 ✅ Acquire foundational skills for improvisational live performance
@@ -187,10 +189,10 @@ Through 6 days of intensive learning, you will acquire **practical skills to exp
 
 | Day | Time | Content |
 |-----|------|---------|
-| **Day 4** | Morning | Basic operations, nodes and networks |
-| **Day 4** | Afternoon | Generative visuals |
-| **Day 5** | Morning | Audio-reactive visuals |
-| **Day 5** | Afternoon | Integration with TidalCycles |
+| **Day 4** | Morning | TouchDesigner installation, introduction |
+| **Day 4** | Afternoon | TouchDesigner basic to intermediate tutorial |
+| **Day 5** | Morning | TouchDesigner tutorial presentations |
+| **Day 5** | Afternoon | Audiovisual integration workshop, live performance preparation |
 
 ### Significance of Audiovisual Integration
 - Synergistic effects through interaction of sound and visuals
