@@ -20,33 +20,30 @@ pre, code {
 }
 </style>
 
-<!-- _class: lead -->
+
 # HKIIT Workshop
 ## Day 1 Morning
-### Introduction to Generative AI and Creative Coding
+### Opening Session
 
 **Instructor: TADOKORO Atsushi**
 2025
 
 ---
 
-## Today's Agenda
+## Today's Agenda (9:30 - 11:30)
 
-1. **Opening Session** (10:00 - 10:40)
+1. **Opening Session** (9:30 - 10:10)
    - Introduction
    - Workshop Objectives
-   - Workshop Overview
+   - Overall Overview
 
-2. **Administrative Matters and Environment Check** (10:40 - 10:50)
-
-3. **Ice-breaking** (10:50 - 11:50)
-
-4. **Closing** (11:50 - 12:00)
+2. **Administrative Notices and Environment Check** (10:10 - 10:20)
 
 ---
 
 <!-- _class: lead -->
 # 1. Opening Session
+(9:30 - 10:10)
 
 ---
 
@@ -96,21 +93,21 @@ pre, code {
 
 ---
 
-## What This Workshop Aims to Achieve
+## What This Workshop Aims For
 
-We aim not only to "use" digital technology but also to **master it as a "tool for expression."**
+We aim not only to "use" digital technology but to **"freely manipulate it as a tool for expression."**
 
-Through 6 days of intensive learning, you will acquire **practical skills to expand your creativity.**
+Through 6 days of intensive learning, we will acquire **practical skills to expand your creativity.**
 
 ---
 
 ## Objective 1: Understanding and Creative Application of Generative AI
 
 ### Learning Content
-- Understanding core technologies: Transformers, LLMs
-- Applications to image, music, and code generation
-- Perceiving AI as a "source of ideas" or "co-creator"
-- Methods to incorporate AI into your creative process
+- Conceptual understanding of core technologies such as Transformers and LLMs
+- Application to image, music, and code generation
+- Viewing AI as an "idea source" and "collaborator"
+- Methods to incorporate into your creative process
 
 ### Specific Topics
 - Fundamentals of prompt engineering
@@ -120,28 +117,37 @@ Through 6 days of intensive learning, you will acquire **practical skills to exp
 
 ---
 
-## Objective 1: Learning Goals
+## Objective 1: Learning Flow
+
+| Day | Time | Content |
+|-----|------|---------|
+| **Day 1** | Morning | Opening Session (Orientation, Icebreaker) |
+| **Day 1** | Afternoon | Workshop 1 "Generative AI and the Future of Creation" |
+
+---
+
+## Objective 1: Goals
 
 ✅ Technically understand how generative AI works
 
 ✅ Select and utilize appropriate AI tools for your projects
 
-✅ Build new creative styles through collaboration between AI and humans
+✅ Build a new creative style through collaboration between AI and humans
 
 ---
 
-## Objective 2: Music Construction through Live Coding
+## Objective 2: Music Construction Through Live Coding
 
 ### Using TidalCycles
 - Generate music in real-time using code
 - Composition and performance based on algorithmic thinking
-- Improvisationally rearrange patterns and construct complex rhythms
+- Improvisationally rearrange patterns and build complex rhythms
 
 ### Characteristics of Live Coding
 - Generate and modify music in real-time
 - Pattern-based composition methods
 - Balance of improvisation and reproducibility
-- Collaborative development by the open-source community
+- Collaborative development through open-source communities
 
 ---
 
@@ -149,24 +155,22 @@ Through 6 days of intensive learning, you will acquire **practical skills to exp
 
 | Day | Time | Content |
 |-----|------|---------|
-| **Day 1** | Morning | Opening session |
-| **Day 1** | Afternoon | Generative AI and the future of creativity |
-| **Day 2** | Morning | Generative AI creative workshop presentations |
-| **Day 2** | Afternoon | TidalCycles installation party, basic tutorial |
-| **Day 3** | Morning | TidalCycles basic tutorial presentations |
-| **Day 3** | Afternoon | TidalCycles practical tutorial |
+| **Day 2** | Morning | Generative AI Creation Workshop Presentation<br>+ Workshop 2 "TidalCycles Installation Party" |
+| **Day 2** | Afternoon | Workshop 3 "What is Live Coding? TidalCycles Basic Tutorial"<br>+ Rhythm Pattern Creation (Hands-on) |
+| **Day 3** | Morning | TidalCycles Basic Tutorial Presentation<br>+ Workshop 4 "TidalCycles Practical Tutorial 1 (Chords/Scales, Complex Rhythms)" |
+| **Day 3** | Afternoon | Workshop 5 "TidalCycles Practical Tutorial 2 (Extensions)"<br>+ Mini Performance (Hands-on) |
 
 ---
 
-## Objective 2: Learning Goals
+## Objective 2: Goals
 
-✅ Master basic TidalCycles syntax and freely write patterns
+✅ Master TidalCycles basic syntax and freely write patterns
 
 ✅ Build music using complex rhythm patterns and effects
 
-✅ Think by connecting music theory and coding
+✅ Think by connecting music theory with coding
 
-✅ Acquire foundational skills for improvisational live performance
+✅ Acquire the basic ability to perform improvised live performances
 
 ---
 
@@ -174,14 +178,14 @@ Through 6 days of intensive learning, you will acquire **practical skills to exp
 
 ### Using TouchDesigner
 - Visual programming environment
-- Generate interactive visuals in real-time
-- Create audiovisual works where sound and visuals are tightly integrated
+- Generate interactive video in real-time
+- Create audiovisual works where sound and video are tightly integrated
 
 ### Characteristics of TouchDesigner
 - Node-based visual programming
 - Excellent real-time performance
-- Integrated handling of 3D, 2D, audio, video, and data processing
-- Supports projection mapping, VJing, installations, etc.
+- Integrates 3D, 2D, audio, video, and data processing
+- Supports projection mapping, VJ, installations, etc.
 
 ---
 
@@ -189,69 +193,69 @@ Through 6 days of intensive learning, you will acquire **practical skills to exp
 
 | Day | Time | Content |
 |-----|------|---------|
-| **Day 4** | Morning | TouchDesigner installation, introduction |
-| **Day 4** | Afternoon | TouchDesigner basic to intermediate tutorial |
-| **Day 5** | Morning | TouchDesigner tutorial presentations |
-| **Day 5** | Afternoon | Audiovisual integration workshop, live performance preparation |
+| **Day 4** | Morning | Workshop 6 "TouchDesigner Installation, Introduction" |
+| **Day 4** | Afternoon | Workshop 7 "TouchDesigner Basic to Intermediate Tutorial"<br>(Live Performance Team Division) |
+| **Day 5** | Morning | TouchDesigner Tutorial Presentation<br>+ Workshop 8 "Audiovisual (Waveform/Spectrum Visualization, TidalCycles Integration)" |
+| **Day 5** | Afternoon | Workshop 9 "Live Performance Production (Structure, Ideation)"<br>+ Preparation (Hands-on) |
 
 ### Significance of Audiovisual Integration
-- Synergistic effects through interaction of sound and visuals
+- Synergistic effects through interaction between sound and video
 - Data-driven visual generation
-- Creating immersion in live performances
+- Creation of immersion in live performances
 
 ---
 
-## Objective 3: Learning Goals
+## Objective 3: Goals
 
-✅ Master basic TouchDesigner operations and create simple visual works
+✅ Master TouchDesigner basic operations and create simple visual works
 
 ✅ Analyze audio signals and map them to visual parameters
 
-✅ Build integrated systems that link TidalCycles and TouchDesigner
+✅ Build an integrated system linking TidalCycles and TouchDesigner
 
 ---
 
 ## Objective 4: Technology Integration and Live Performance
 
-### Ultimate Goal
-**Don't let the learned technologies remain fragmented knowledge**
+### Final Goal
+**Don't let the learned technologies end as fragmented knowledge**
 
-Integrate generative AI + live coding + audiovisuals to build your **original live performance**
+Integrate Generative AI + Live Coding + Audiovisual to build **original live performances**
 
 ### Importance of an Integrated Approach
-- Contemporary media art is interdisciplinary
-- Not only individual technical acquisition but also the "design ability" to combine them
-- Balance of technical implementation skills and artistic expression
+- Modern media art is interdisciplinary
+- Not just acquiring individual technologies, but "design skills" to combine them are necessary
+- Balance of technical implementation ability and artistic expression
 
 ---
 
 ## Components of Live Performance
 
-1. **Concept** - Theme, message of the work
-2. **Sound** - Musical part using TidalCycles
+1. **Concept** - Theme and message of the work
+2. **Sound** - Music part using TidalCycles
 3. **Visual** - Video part using TouchDesigner
-4. **Interaction** - Coordination of sound and visuals
-5. **Direction** - Composition of timing, development, and climax
+4. **Interaction** - Integration of sound and video
+5. **Direction** - Timing, development, climax
 
 ### Preparation for Presentation (Day 5 Afternoon - Day 6)
 - Concept planning individually or in groups
 - Prototype creation and testing
-- Rehearsal and refinement
+- Rehearsal and polishing
 
 ---
 
-## Objective 4: Learning Goals
+## Objective 4: Goals
 
-✅ Design and implement works that integrate multiple technologies
+✅ Design and implement works integrating multiple technologies
 
-✅ Project management skills to complete works within a limited time
+✅ Project management ability to complete works within limited time
 
-✅ Communication skills to present your work to others
+✅ Communication ability to present your work to others
 
 ---
 
 <!-- _class: lead -->
-## 1-3. Workshop Overview
+## 1-3. Workshop Overall Overview
 
 ---
 
@@ -259,55 +263,89 @@ Integrate generative AI + live coding + audiovisuals to build your **original li
 
 | Day | Theme | Content |
 |-----|-------|---------|
-| **Day 1** | Generative AI and the Future of Creativity | Orientation, Introduction to AI |
+| **Day 1** | Generative AI and the Future of Creation | Orientation, AI overview, practice |
 | **Day 2** | Live Coding Basics | TidalCycles environment setup, basic syntax |
 | **Day 3** | Live Coding Practice | Advanced patterns, music production |
-| **Day 4** | Visual Generation Basics | Basic TouchDesigner operations |
-| **Day 5** | Audiovisual Integration | Sound-visual integration system building |
-| **Day 6** | Final Presentation | Work refinement, presentation |
+| **Day 4** | Visual Generation Basics | TouchDesigner basic operations |
+| **Day 5** | Audiovisual Integration | Building sound and video integration systems |
+| **Day 6** | Final Presentation | Work polishing, presentation |
 
 ---
 
-## Learning Cycle
-
-Each session proceeds with the following cycle:
-
-1. **Lecture** (20-30 min) - Explanation of theories and techniques
-2. **Demonstration** (10-15 min) - Demonstration by the instructor
-3. **Hands-on** (30-60 min) - Practical exercises for all participants
-4. **Individual/Group Production** (60-90 min) - Free creative time
-5. **Presentation and Sharing** (15-30 min) - Sharing results and feedback
-
-**We emphasize practical skill acquisition, not just knowledge input**
+<!-- _class: lead -->
+# 2. Administrative Notices and Environment Check
+(10:10 - 10:20)
 
 ---
 
-## Support System
+## Questions Welcome
+- We welcome questions during lectures and practical sessions
+- Any trivial questions are OK
+- **Having doubts is the first step in learning**
 
-### During the Workshop
-- Instructors and teaching assistants provide constant support
-- Accept questions via online chat (Slack, etc.)
-- Encourage pair programming and group discussion
-
-### Encouraging Self-study
-- Set aside time for review and preview after each day
-- Utilize online resources (official documentation, tutorial videos, etc.)
-- Encourage free experimentation to deepen areas of interest
+### Support System
+- Instructors and staff will circulate during production practice
+- Questions via online chat are also possible (link to be shared separately)
 
 ---
 
-## Evaluation and Feedback
+## Break and Manners
 
-### There are no grades in this workshop
+### Breaks
+- Brief breaks between sessions
+- Please return promptly after breaks
 
-Perspectives for constructive feedback:
-- ✨ Technical proficiency
-- ✨ Creativity and originality
-- ✨ Challenging attitude
-- ✨ Collaboration with other participants
+### Manners
+- Silence or mute mobile phones
+- Use laptops and tablets appropriately
+- Respect diverse opinions and expressions
 
-### Final Presentation
-**Peer review** among participants will also be conducted
+---
+
+## Application Check
+
+### Recommended Installed Applications
+- ✅ **Google Chrome** - Latest version recommended
+- ✅ **Visual Studio Code** - Text editor
+- ✅ **TouchDesigner** (※User registration and key required)
+  - Free version (Non-Commercial) is fine
+  - License key input required at first launch
+- ✅ **SuperCollider** - Audio engine for TidalCycles
+- ✅ **Git** - Version control system
+
+**※TidalCycles installation will be done together by everyone in the afternoon of Day 2**
+
+---
+
+## Troubleshooting
+
+### If you have installation problems
+Instructors and staff will provide support during this time
+
+Especially **TouchDesigner license acquisition** has many troubles, so please let us know if you haven't completed it
+
+---
+
+## Recommended Resources
+
+### Online Communities
+- TidalCycles Forum: https://club.tidalcycles.org/
+- TouchDesigner Forum: https://forum.derivative.ca/
+
+### Reference Materials
+- TidalCycles Official Documentation
+- TouchDesigner Official Tutorials
+- Instructor's books and blog posts (link collection to be shared later)
+
+---
+
+<!-- _class: lead -->
+# Thank You!
+
+### See you at the afternoon session!
+
+**From 14:00**
+Workshop 1 "Generative AI and the Future of Creation"
 
 ---
 
@@ -375,257 +413,16 @@ Instructors and staff will provide support during this time
 - TouchDesigner Forum: https://forum.derivative.ca/
 
 ### Reference Materials
-- TidalCycles official documentation
-- TouchDesigner official tutorials
-- Instructor's books and blog articles (link collection to be shared later)
-
----
-
-## Other Confirmation Items
-
-### Wi-Fi Connection
-- We will share the workshop venue's Wi-Fi information
-- Please download large files during break times
-
-### Data Backup
-- We recommend regularly saving work files to USB memory or cloud storage
-- If you have a GitHub account, managing with a repository is also effective
+- TidalCycles Official Documentation
+- TouchDesigner Official Tutorials
+- Instructor's books and blog posts (link collection to be shared later)
 
 ---
 
 <!-- _class: lead -->
-# 3. Ice-breaking
+# Thank You!
 
----
+### See you at the afternoon session!
 
-## 3-1. Purpose of Ice-breaking
-
-### Why do we do ice-breaking?
-
-- Deepen mutual understanding among participants
-- Share expectations for the workshop to enhance learning effectiveness
-- Create a relaxed atmosphere and establish an environment where questions are easy to ask
-- Provide networking opportunities for participants with diverse backgrounds
-- **Foster team unity early on for effective learning during the short 6-day period**
-
----
-
-## 3-2. Self-introduction (40 minutes)
-
-### Group Division
-- Divide into small groups of 3-4 people
-- We will arrange groups so that people with different backgrounds are paired together
-- Please decide on a facilitator role in each group
-  - Responsible for time management and presentation
-
----
-
-## Self-introduction Content
-
-### Share the following in approximately 3-5 minutes per person:
-
-1. **Your name (or nickname)**
-   - The name you would like to be called during this workshop period
-
-2. **Your affiliation or current activities**
-   - Student, designer, engineer, artist, etc.
-   - Programming experience and level
-   - Experience in music or video production
-
----
-
-## Self-introduction Content (continued)
-
-3. **Tools you usually use or technologies you're interested in**
-   - DAW, graphic tools, programming languages, etc.
-   - Technologies or fields you'd like to learn
-
-4. **How you learned about this workshop**
-   - Reason you decided to participate
-
-5. **(Optional) Favorite artists or works that influenced you**
-   - Media art, music, video, anything
-   - Works or experiences that recently moved you
-
----
-
-## Group Work Points
-
-- ⏰ Pay attention to time allocation so everyone can speak equally
-- 👂 Listeners should actively ask questions and make comments
-- 📝 We recommend taking notes (they might be useful later)
-- 🔍 Enjoy finding common interests or unexpected connections
-
----
-
-## Overall Sharing (10 minutes)
-
-### From Groups to the Whole
-- Share discoveries and interesting episodes from within groups to the whole group
-- An opportunity to recognize the diversity of all participants
-
-**Let's start the group work!**
-
----
-
-## 3-3. Expectation Sharing (20 minutes)
-
-### Group Discussion
-
-Let's discuss the following points:
-
-1. **What you especially want to learn in this workshop**
-   - Which you are most interested in: generative AI, TidalCycles, or TouchDesigner
-   - Specific skills or techniques you want to acquire
-   - How you want to apply them to your field of expertise
-
----
-
-## Expectation Sharing (continued)
-
-2. **What kind of work you'd like to create on the final day**
-   - Can be abstract images or specific concepts
-   - Sound-focused, visual-focused, or balanced
-   - Individual or group production
-
-3. **Anxieties or concerns you have**
-   - Lack of programming experience
-   - Lack of music theory knowledge
-   - Dealing with technical troubles
-   - → **By sharing these anxieties, we build relationships where we can help each other**
-
----
-
-## Presentation and Overall Sharing (10 minutes)
-
-### Representatives from each group present
-
-**Presentation content:**
-- Brief introduction of group members
-- Themes of common high interest
-- Unique ideas or opinions
-- Questions or concerns
-
-**Comments from the instructor:**
-- Response policy to each group's expectations
-- Response to common concerns
-- Advice for resolving anxieties
-
----
-
-## Expectation Mapping
-
-### Visualize all participants' concerns
-
-- Using a whiteboard or digital tool
-- Used as a reference for cooperation systems and grouping during free production time in the latter half
-
-**Your diverse expectations will enrich this workshop!**
-
----
-
-<!-- _class: lead -->
-# 4. Closing
-
----
-
-## Morning Summary
-
-### Thank you for your participation!
-
-- In the afternoon, we will finally get into concrete creative work
-- Through self-introductions and expectation sharing, we learned how this workshop is composed of people with diverse backgrounds
-- **This diversity is the greatest asset that will enrich the 6 days of learning**
-
----
-
-## Morning Key Points
-
-### Review
-
-✅ The four objectives of the workshop
-✅ The 6-day schedule and goals for each day
-✅ The importance of connections among participants
-
----
-
-## Afternoon Session Preview
-
-### From 13:00 (tentative)
-**Workshop 1: Generative AI and the Future of Creativity**
-
-#### Afternoon Content Details
-- **Part 1:** Technical foundations of generative AI (Transformer, diffusion models, etc.)
-- **Part 2:** Practice with image generation AI (Stable Diffusion, Midjourney, etc.)
-- **Part 3:** Creative applications of text generation AI (ChatGPT, Claude, etc.)
-- **Part 4:** Possibilities of music generation AI (Suno, Udio, etc.)
-- **Part 5:** Collaboration between AI and humans - future creative styles
-
----
-
-## Preparation for the Afternoon
-
-### We will not only have lectures but also conduct creative practice using actual AI tools
-
-**Please prepare:**
-- Laptop and internet connection
-- Web browser (Chrome recommended)
-- Text editor (VS Code)
-- Accounts for various AI services (ChatGPT, Claude, etc. - free version is fine)
-
-**If you haven't created an account, please register during lunch break**
-
----
-
-## How to Spend Lunch Break
-
-### Lunch: 12:00 - 13:00
-
-- We will share information about restaurants near the venue (map distribution)
-- **We recommend having lunch with other participants**
-  - As an opportunity for further interaction
-- Please refresh both mind and body in preparation for the afternoon
-
----
-
-## Question Time
-
-### We will accept questions about the morning content or afternoon schedule
-
-- If you have technical troubles, please consult with staff during this time
-
----
-
-<!-- _class: lead -->
-## Words of Encouragement
-
-**Six days is a long time, but also a short time**
-
-Let's actively experiment, not fear failure,
-and learn while enjoying ourselves
-
-Please don't hesitate to ask questions
-**Asking questions is part of learning**
-
-See you in the afternoon session!
-
----
-
-<!-- _class: lead -->
-# Supplementary Materials
-
----
-
-## Today's Materials
-
-- Today's materials and sample code will be uploaded to the shared folder later
-- Please join the workshop-dedicated Slack channel
-  - Invitation link will be sent separately
-- We recommend sharing daily reflections and questions on Slack
-
----
-
-<!-- _class: lead -->
-# Thank you!
-
-See you in the afternoon session 🎨🎵✨
+**From 14:00**
+Workshop 1 "Generative AI and the Future of Creation"
