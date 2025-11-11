@@ -81,6 +81,9 @@ pre, code {
       * Transformerの核となる技術です。
       * 文中の各単語が、他のどの単語と強く関連しているかを計算します。
       * これにより、文脈に合った意味を理解できます（例: 「バンク」が「銀行」なのか「川岸」なのかを判断）。
+
+---
+
   * **参考資料**:
       * 動画: [LLMの仕組み（簡単バージョン）](https://www.youtube.com/watch?v=y7NQiNER6r4)
       * 図解: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
@@ -108,6 +111,9 @@ pre, code {
   * **1950s (アナログ時代)**: ベン・ラポスキーがオシロスコープで『Electronic Abstractions』を制作しました。
   * **1960s (デジタル時代)**: フリーダー・ナーケらが初期のコンピューターとプロッター（描画機）でアルゴリズムによるドローイングを制作しました。
   * **1970s (アーティスト・プログラマー時代)**: ハロルド・コーエンがAIアートの先駆け『AARON』を開発しました。
+
+---
+
   * **1990s (ネット時代)**: ジョン・マエダが『Design By Numbers』を発表しました。
   * **2000s (ツール時代)**: **Processing** や **openFrameworks** が登場し、クリエイティブ・コーディングが普及しました。
   * **2010s (AI時代)**: Googleの**DeepDream** (2015) やGANが登場しました。
@@ -171,19 +177,21 @@ pre, code {
   * **技術の進化**:
       * **GAN (〜2019)**: リアルだが不安定な映像（例: [Deep Dream](https://github.com/google/deepdream)風）。
       * **拡散モデル + Transformer (現在)**: ノイズから高品質な映像を生成します。SoraやVeoはこの技術がベースです。
+
+---
+
   * **主なサービス**:
       * **[OpenAI Sora](https://sora.com/)**: 物理法則を理解し、1分以上の高解像度動画と音声を生成します（限定公開中）。
       * **[Google Veo (Flow内)](https://labs.google/flow)**: 映画的な表現言語の理解に優れます（限定公開中）。
       * **[Luma AI Dream Machine](https://lumalabs.ai)**: 高速で使いやすく、品質も高いです（無料枠あり）。
       * **[Pika](https://pika.art)**: クリエイティブなエフェクトやアニメ調の変換が得意です（無料枠あり）。
-      * **[疑わしいリンクは削除されました]**: プロ向け。カメラ制御など細かいコントロールが可能です（有料）。
 
 -----
 
 ### 4-2. 動画生成（実習）
 
   * **実習**:
-      * **ツール**: [Luma AI Dream Machine](https://lumalabs.ai) または [Pika](https://pika.art)
+      * **ツール**: [Luma AI Dream Machine](https://lumalabs.ai)、[OpenAI Sora](https://sora.com/)、[Google Veo](https://labs.google/flow) など
       * **お題**:
         1.  テキストから動画を生成する。
               * 例: `A cinematic shot of a raccoon detective in a trench coat, walking through a rainy neon-lit city street at night.`
@@ -208,16 +216,7 @@ pre, code {
       * **ツール**: [Suno AI](https://suno.com/)
       * **お題**:
         1.  「カスタムモード」をオンにします。
-        2.  **歌詞 (Lyrics)** を入力します（日本語可）。
-              * 例:
-                ```
-                (verse 1)
-                雨上がりのアスファルト
-                ネオンが滲む夜
-                (chorus)
-                AIが見る夢は
-                電気羊のメロディ
-                ```
+        2.  **歌詞 (Lyrics)** を入力します              
         3.  **スタイル (Style of Music)** を指定します。
               * 例: `City Pop, 80s Japanese, Lo-fi`
         4.  生成された2パターンの曲を聴き比べます。

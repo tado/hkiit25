@@ -20,6 +20,7 @@ pre, code {
 }
 </style>
 
+
 # Workshop: Generative AI and the Future of Creation
 
 -----
@@ -81,6 +82,9 @@ The emergence of Generative AI is similar to the advent of internet search engin
       * This is the core technology of the Transformer.
       * It calculates how strongly each word in a sentence is related to other words.
       * This allows it to understand context-appropriate meaning (e.g., determining if "bank" means a financial institution or a riverbank).
+
+-----
+
   * **References**:
       * Video: [How LLMs Work (Simple Version)](https://www.youtube.com/watch?v=y7NQiNER6r4)
       * Illustrated Guide: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
@@ -108,6 +112,9 @@ The emergence of Generative AI is similar to the advent of internet search engin
   * **1950s (Analog Era)**: Ben Laposky created "Electronic Abstractions" using an oscilloscope.
   * **1960s (Digital Era)**: Artists like Frieder Nake created algorithmic drawings using early computers and plotters.
   * **1970s (Artist-Programmer Era)**: Harold Cohen developed "AARON," a pioneer in AI art.
+
+-----
+
   * **1990s (Net Era)**: John Maeda published "Design By Numbers."
   * **2000s (Tooling Era)**: **Processing** and **openFrameworks** emerged, popularizing creative coding.
   * **2010s (AI Era)**: Google's **DeepDream** (2015) and GANs appeared.
@@ -171,19 +178,21 @@ AI that generates videos from text or images. This field is evolving rapidly.
   * **Technological Evolution**:
       * **GAN (〜2019)**: Realistic but unstable footage (e.g., [Deep Dream](https://github.com/google/deepdream)-style).
       * **Diffusion Models + Transformers (Present)**: Generate high-quality video from noise. Sora and Veo are based on this technology.
+
+-----
+
   * **Main Services**:
       * **[OpenAI Sora](https://sora.com/)**: Understands physics, generates high-res video (1+ min) and audio (Limited Access).
       * **[Google Veo (in Flow)](https://labs.google/flow)**: Excels at understanding cinematic language (Limited Access).
       * **[Luma AI Dream Machine](https://lumalabs.ai)**: Fast, easy to use, and high quality (Free tier available).
       * **[Pika](https://pika.art)**: Good for creative effects and anime-style conversions (Free tier available).
-      * **[Link removed for safety]**: For pros. Allows fine control over camera, etc. (Paid).
 
 -----
 
 ### 4-2. Video Generation (Practice)
 
   * **Practice**:
-      * **Tools**: [Luma AI Dream Machine](https://lumalabs.ai) or [Pika](https://pika.art)
+      * **Tools**: [Luma AI Dream Machine](https://lumalabs.ai), [OpenAI Sora](https://sora.com/), [Google Veo](https://labs.google/flow) etc.
       * **Prompt/Task**:
         1.  Generate a video from text.
               * Example: `A cinematic shot of a raccoon detective in a trench coat, walking through a rainy neon-lit city street at night.`
@@ -209,15 +218,6 @@ AI that generates full songs, including vocals and accompaniment, from text (lyr
       * **Prompt/Task**:
         1.  Turn on "Custom Mode".
         2.  Input **Lyrics**.
-              * Example:
-                ```
-                (verse 1)
-                Asphalt after the rain
-                A night where the neon lights blur
-                (chorus)
-                The dream that AI sees
-                Is a melody of electric sheep
-                ```
         3.  Specify the **Style of Music**.
               * Example: `City Pop, 80s Japanese, Lo-fi`
         4.  Listen to and compare the two generated song variations.
@@ -258,8 +258,13 @@ AI assists with code generation, completion, and debugging (error fixing).
   * **Is AI a Tool or a Collaborator?**:
       * As seen in today's practice, AI is a powerful "tool" for giving shape to ideas.
       * At the same time, it can also be a "collaborator" that understands human intent and makes unexpected suggestions.
+---
+
   * **The Role of Humans**:
       * The **vision** of "what to create" and the ability to ask questions.
       * The "editing" ability to **evaluate and select** AI's output and provide instructions for refinement.
       * The ability to design new **contexts** and **processes** that the AI has not been trained on.
+
+---
+      
   * **Challenges**: We must continue to critically examine the problems behind the technology, such as data bias, copyright, and energy consumption.
