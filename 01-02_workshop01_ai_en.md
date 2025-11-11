@@ -127,8 +127,7 @@ AI that generates videos from text or images. This field is evolving rapidly.
       * **[Google Veo (in Flow)](https://labs.google/flow)**: Excels at understanding cinematic language (Limited Access).
       * **[Luma AI Dream Machine](https://lumalabs.ai)**: Fast, easy to use, and high quality (Free tier available).
       * **[Pika](https://pika.art)**: Good for creative effects and anime-style conversions (Free tier available).
-      * **[疑わしいリンクは削除されました]**: For pros. Allows fine control over camera, etc. (Paid).
-
+      
   * **Practice**:
 
       * **Tools**: [Luma AI Dream Machine](https://lumalabs.ai) or [Pika](https://pika.art)
