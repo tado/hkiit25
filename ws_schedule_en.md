@@ -75,7 +75,7 @@ PM: 14:00 - 17:00
   - Introduction to live coders
   - Basics of TidalCycles
   - Creating patterns
-- Hans-on practice:
+- Hands-on practice:
   - Production Practice: Creating rhythm patterns with TidalCycles
   - Q&A and production support
 
@@ -111,10 +111,10 @@ AM: 9:30 - 11:30
   - Based on what was learned in the TidalCycles practical tutorial
   - Present a more practical performance with a focus on live performance
   - Perform for approx. 10 minutes per person
-- Workshop 5: TouchDesigner Installation and Introduction
+- Workshop 6: TouchDesigner Installation and Introduction
 
 PM: 14:00 - 17:00
-- Workshop 6: TouchDesigner Basic to Intermediate Tutorial
+- Workshop 7: TouchDesigner Basic to Intermediate Tutorial
   - Forming teams for the live performance
 - Hands-on practice:
   - Production Practice: Creating visual content with TouchDesigner
@@ -126,14 +126,14 @@ PM: 14:00 - 17:00
 
 AM: 9:30 - 11:30
 - Presentation: Sharing results from the TouchDesigner tutorial
-- Workshop 7: Audio-Visual
+- Workshop 8: Audio-Visual
   - Waveform visualization
   - Frequency spectrum visualization
   - Linking TidalCycles and TouchDesigner
 
 PM: 14:00 - 17:00
 
-- Workshop 8: Live Performance Production
+- Workshop 9: Live Performance Production
   - Structuring a live coding performance
   - Brainstorming ideas for the performance
 - Hands-on practice:
