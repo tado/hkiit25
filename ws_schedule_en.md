@@ -38,11 +38,11 @@ Arrival Day
 
 **Workshop Day 1**
 
-Morning:
+AM: 9:30 - 11:30
 - Opening Session: Introduction to the workshop's purpose and overview
 - Icebreaker: Participant introductions and sharing expectations
 
-Afternoon:
+PM: 14:00 - 17:00
 - Workshop 1: The Future of Generative AI and Creation
   - Fundamentals of Generative AI - Transformer and LLM
   - Case studies of artistic works using Generative AI
@@ -53,10 +53,6 @@ Afternoon:
     - Music
     - Programming
 
-Evening:
-- Production Practice: Hands-on creation with Generative AI
-  - Q&A and production support
-
 ### 12/07 (Sun.)
 
 Holiday (Reserve Day)
@@ -65,96 +61,95 @@ Holiday (Reserve Day)
 
 **Workshop Day 2**
 
-Morning:
+AM: 9:30 - 11:30
 - Presentation: Sharing results from the Generative AI creative workshop
   - Presentation of works created using Generative AI
   - Anything is welcome, such as images, videos, music, and programming
-
-Afternoon:
 - Workshop 2: TidalCycles Installation Party
   - Step-by-step installation support
+
+PM: 14:00 - 17:00
+
 - Workshop 3: What is Live Coding? TidalCycles Basic Tutorial
   - What is Live Coding?
   - Introduction to live coders
   - Basics of TidalCycles
   - Creating patterns
-
-Evening:
-- Production Practice: Creating rhythm patterns with TidalCycles
+- Hans-on practice:
+  - Production Practice: Creating rhythm patterns with TidalCycles
   - Q&A and production support
 
 ### 12/09 (Tue.)
 
 **Workshop Day 3**
 
-Morning:
+AM: 9:30 - 11:30
 - Presentation: Sharing results from the TidalCycles basic tutorial
   - Based on what was learned in the TidalCycles basic tutorial
   - Present the patterns created (approx. 3-5 minutes per person)
-
-Afternoon:
 - Workshop 4: TidalCycles Practical Tutorial 1
   - Chords and Scales
   - Complex rhythmic structures: Polyrhythms, Polymeters, Euclidean sequences
+
+PM: 14:00 - 17:00
+
 - Workshop 5: TidalCycles Practical Tutorial 2
   - Live coding performance practice
   - Extending TidalCycles
     - Adding samples
     - Creating original Synths
-
-Evening:
-- Production Practice: Mini-performance with TidalCycles
+- Hands-on practice:
+  - Production Practice: Mini-performance with TidalCycles
   - Q&A and production support
 
 ### 12/10 (Wed.)
 
 **Workshop Day 4**
 
-Morning:
+AM: 9:30 - 11:30
 - Presentation: Sharing results from the TidalCycles practical tutorial
   - Based on what was learned in the TidalCycles practical tutorial
   - Present a more practical performance with a focus on live performance
   - Perform for approx. 10 minutes per person
-
-Afternoon:
 - Workshop 5: TouchDesigner Installation and Introduction
-- Workshop 6: TouchDesigner Basic to Intermediate Tutorial
-- Forming teams for the live performance
 
-Evening:
-- Production Practice: Creating visual content with TouchDesigner
+PM: 14:00 - 17:00
+- Workshop 6: TouchDesigner Basic to Intermediate Tutorial
+  - Forming teams for the live performance
+- Hands-on practice:
+  - Production Practice: Creating visual content with TouchDesigner
   - Q&A and production support
 
 ### 12/11 (Thu.)
 
 **Workshop Day 5**
 
-Morning:
+AM: 9:30 - 11:30
 - Presentation: Sharing results from the TouchDesigner tutorial
-
-Afternoon:
 - Workshop 7: Audio-Visual
   - Waveform visualization
   - Frequency spectrum visualization
   - Linking TidalCycles and TouchDesigner
+
+PM: 14:00 - 17:00
+
 - Workshop 8: Live Performance Production
   - Structuring a live coding performance
   - Brainstorming ideas for the performance
-
-Evening:
-- Production Practice: Preparing for the live coding performance
+- Hands-on practice:
+  - Production Practice: Preparing for the live coding performance
   - Q&A and production support
 
 ### 12/12 (Fri.)
 
 **Presentation Day**
 
-Morning:
+AM: 9:30 - 11:30
 - Rehearsal
 
-Afternoon:
+PM: 14:00 - 17:00
 - Presentation practice
 - Production support
 
-Evening:
+Evening: 17:00 - 19:00
 - Live Performance Showcase
