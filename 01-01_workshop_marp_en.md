@@ -64,7 +64,8 @@ pre, code {
 ## Instructor Introduction
 
 ### TADOKORO Atsushi
-**Creative Coder, Live Coder, University Professor**
+
+---
 
 #### Background and Activities
 - Associate Professor, Faculty of Engineering, Maebashi Institute of Technology
@@ -82,9 +83,11 @@ pre, code {
 - **Real-time audiovisual expression**
 - **Generative art and AI**
 
+---
+
 ### Thoughts on the Workshop
 
-> Technology is not just a "tool" but a "medium" that opens up new ways of thinking and possibilities for expression. I hope that you will find your own unique language of expression through technology.
+Technology is not just a "tool" but a "medium" that opens up new ways of thinking and possibilities for expression. I hope that you will find your own unique language of expression through technology.
 
 ---
 
@@ -109,6 +112,8 @@ Through 6 days of intensive learning, we will acquire **practical skills to expa
 - Viewing AI as an "idea source" and "collaborator"
 - Methods to incorporate into your creative process
 
+---
+
 ### Specific Topics
 - Fundamentals of prompt engineering
 - Image generation AI (Stable Diffusion, Midjourney, etc.)
@@ -118,6 +123,12 @@ Through 6 days of intensive learning, we will acquire **practical skills to expa
 ---
 
 ## Objective 1: Learning Flow
+
+<style scoped>
+table {
+  font-size: 0.8em;
+}
+</style>
 
 | Day | Time | Content |
 |-----|------|---------|
@@ -153,12 +164,18 @@ Through 6 days of intensive learning, we will acquire **practical skills to expa
 
 ## Objective 2: Learning Flow
 
+<style scoped>
+table {
+  font-size: 0.95em;
+}
+</style>
+
 | Day | Time | Content |
 |-----|------|---------|
-| **Day 2** | Morning | Generative AI Creation Workshop Presentation<br>+ Workshop 2 "TidalCycles Installation Party" |
-| **Day 2** | Afternoon | Workshop 3 "What is Live Coding? TidalCycles Basic Tutorial"<br>+ Rhythm Pattern Creation (Hands-on) |
-| **Day 3** | Morning | TidalCycles Basic Tutorial Presentation<br>+ Workshop 4 "TidalCycles Practical Tutorial 1 (Chords/Scales, Complex Rhythms)" |
-| **Day 3** | Afternoon | Workshop 5 "TidalCycles Practical Tutorial 2 (Extensions)"<br>+ Mini Performance (Hands-on) |
+| **Day2** | Morning | Generative AI Creation Workshop Presentation<br>+ Workshop 2 "TidalCycles Installation Party" |
+| **Day2** | Afternoon | Workshop 3 "What is Live Coding? TidalCycles Basic Tutorial"<br>+ Rhythm Pattern Creation (Hands-on) |
+| **Day3** | Morning | TidalCycles Basic Tutorial Presentation<br>+ Workshop 4 "TidalCycles Practical Tutorial 1 (Chords/Scales, Complex Rhythms)" |
+| **Day3** | Afternoon | Workshop 5 "TidalCycles Practical Tutorial 2 (Extensions)"<br>+ Mini Performance (Hands-on) |
 
 ---
 
@@ -191,12 +208,21 @@ Through 6 days of intensive learning, we will acquire **practical skills to expa
 
 ## Objective 3: Learning Content
 
+<style scoped>
+table {
+  font-size: 0.95em;
+}
+</style>
+
+
 | Day | Time | Content |
 |-----|------|---------|
-| **Day 4** | Morning | Workshop 6 "TouchDesigner Installation, Introduction" |
-| **Day 4** | Afternoon | Workshop 7 "TouchDesigner Basic to Intermediate Tutorial"<br>(Live Performance Team Division) |
-| **Day 5** | Morning | TouchDesigner Tutorial Presentation<br>+ Workshop 8 "Audiovisual (Waveform/Spectrum Visualization, TidalCycles Integration)" |
-| **Day 5** | Afternoon | Workshop 9 "Live Performance Production (Structure, Ideation)"<br>+ Preparation (Hands-on) |
+| **Day4** | Morning | Workshop 6 "TouchDesigner Installation, Introduction" |
+| **Day4** | Afternoon | Workshop 7 "TouchDesigner Basic to Intermediate Tutorial"<br>(Live Performance Team Division) |
+| **Day5** | Morning | TouchDesigner Tutorial Presentation<br>+ Workshop 8 "Audiovisual (Waveform/Spectrum Visualization, TidalCycles Integration)" |
+| **Day5** | Afternoon | Workshop 9 "Live Performance Production (Structure, Ideation)"<br>+ Preparation (Hands-on) |
+
+---
 
 ### Significance of Audiovisual Integration
 - Synergistic effects through interaction between sound and video
@@ -261,14 +287,21 @@ Integrate Generative AI + Live Coding + Audiovisual to build **original live per
 
 ## 6-Day Schedule
 
+<style scoped>
+table {
+  font-size: 0.85em;
+}
+</style>
+
+
 | Day | Theme | Content |
 |-----|-------|---------|
-| **Day 1** | Generative AI and the Future of Creation | Orientation, AI overview, practice |
-| **Day 2** | Live Coding Basics | TidalCycles environment setup, basic syntax |
-| **Day 3** | Live Coding Practice | Advanced patterns, music production |
-| **Day 4** | Visual Generation Basics | TouchDesigner basic operations |
-| **Day 5** | Audiovisual Integration | Building sound and video integration systems |
-| **Day 6** | Final Presentation | Work polishing, presentation |
+| **Day1** | Generative AI and the Future of Creation | Orientation, AI overview, practice |
+| **Day2** | Live Coding Basics | TidalCycles environment setup, basic syntax |
+| **Day3** | Live Coding Practice | Advanced patterns, music production |
+| **Day4** | Visual Generation Basics | TouchDesigner basic operations |
+| **Day5** | Audiovisual Integration | Building sound and video integration systems |
+| **Day6** | Final Presentation | Work polishing, presentation |
 
 ---
 
