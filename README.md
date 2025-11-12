@@ -11,7 +11,7 @@ Day 1: (12/06)
 - [Workshop 1: The Future of Generative AI and Creation](01-02_workshop01_ai_en.md)
 
 Day 2: (12/08)
-- [Workshop 2: TidalCycles Installation Party](02-01_workshop02_tidal_install_en.md)
+- [Workshop 2: TidalCycles Installation Party](02-01_workshop02_tidalinstall_en.md)
 - Workshop 3: What is Live Coding? TidalCycles Basic Tutorial
 
 Day 3: (12/09)
