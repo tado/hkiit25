@@ -38,7 +38,7 @@ Follow these steps to install TidalCycles.
     Execute the following command in Terminal:
 
     ```bash
-    curl [https://raw.githubusercontent.com/tidalcycles/tidal-bootstrap/master/tidal-bootstrap.command](https://raw.githubusercontent.com/tidalcycles/tidal-bootstrap/master/tidal-bootstrap.command) -sSf | sh
+    curl https://raw.githubusercontent.com/tidalcycles/tidal-bootstrap/master/tidal-bootstrap.command -sSf | sh
     ```
 
 The installation will take a very long time\! Please be patient.
@@ -77,9 +77,9 @@ If the automatic installation fails, please refer to the following documentation
     Execute the following command:
 
     ```powershell
-    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('[https://chocolatey.org/install.ps1](https://chocolatey.org/install.ps1)'))
+    Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
     ```
-
+    
 3.  Install TidalCycles
 
     Execute the following command:
