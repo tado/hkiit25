@@ -91,15 +91,23 @@ The emergence of Generative AI is similar to the advent of internet search engin
 
 ### Examples of AI-Powered Artworks
 
-  * **[Refik Anadol, *Unsupervised* (2023)](https://refikanadol.com/works/unsupervised/)**
+  **[Refik Anadol, *Unsupervised* (2023)](https://refikanadol.com/works/unsupervised/)**
+  
   <img src = "https://dpk6zrxldcuco.cloudfront.net/2023/annual/professional/31079cd9-f223-477c-82fe-8a0b230a2c40/860x484q80-smart.jpg" width = "480" />
-      * A work that trained an AI on the entire collection of MoMA (Museum of Modern Art) and continuously generates new "machine hallucinations" in real-time.
-  * **[Nao Tokui - AI DJ Project (2016)](https://qosmo.jp/art/ai-dj-human-dj-b2b)**
+  
+  * A work that trained an AI on the entire collection of MoMA (Museum of Modern Art) and continuously generates new "machine hallucinations" in real-time.
+  
+  **[Nao Tokui - AI DJ Project (2016)](https://qosmo.jp/art/ai-dj-human-dj-b2b)**
+  
   <img src = "https://www.naotokui.net/wp-content/uploads/2018/01/26A0877-800x533.jpg" width = "480" />
-      * A project where an AI and a human DJ perform in a B2B (back-to-back) format, taking turns selecting music.
-  * **[The Beatles, *Now And Then* (2023)](https://youtu.be/AW55J2zE3N4?si=1A18nDsyifkysFAJ)**
+  
+  * A project where an AI and a human DJ perform in a B2B (back-to-back) format, taking turns selecting music.
+  
+  **[The Beatles, *Now And Then* (2023)](https://youtu.be/AW55J2zE3N4?si=1A18nDsyifkysFAJ)**
+  
   <img src = "https://i.ytimg.com/vi/Opxhh9Oh3rg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDToUSNIbJe9wSRyCjtebMv3j-HuQ" width = "480" />
-      * Using AI technology, John Lennon's vocals and piano were separated from an old demo tape. Based on the clarified vocals, the remaining members added new performanc>es, completing it as the final new song by The Beatles.
+  
+  * Using AI technology, John Lennon's vocals and piano were separated from an old demo tape. Based on the clarified vocals, the remaining members added new performanc>es, completing it as the final new song by The Beatles.
 
 ### A Curator's Perspective: What Counts as Art?
 
