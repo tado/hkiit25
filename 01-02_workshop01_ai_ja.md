@@ -1,206 +1,244 @@
-# ワークショップ: 生成AIと創作の未来
+はい、承知いたしました。
+アップロードされたMarkdownファイルの`<img>`要素やリンクURLを変更せず、本文テキストのみを日本語に翻訳したMarkdownファイルを作成します。
 
-## はじめに
+-----
+
+# ワークショップ：生成AIと創造の未来
+
+## イントロダクション
 
 ### ワークショップの目的
 
-本ワークショップでは、生成AIの基礎から応用までを幅広く学び、創作におけるAIの可能性を探求します。テキスト、画像、音楽、映像、コード生成などの実例を通して、AIがどのように創作に活用できるかを体験します。AIがアートやデザインにもたらす変革を探ると同時に、その限界や課題についても批判的に考察します。
+このワークショップでは、生成AIの基礎から応用まで幅広く扱い、創造におけるAIの可能性を探求します。テキスト、画像、音楽、映像、コード生成の実例を通じ、参加者はAIがクリエイティブな作業にどう活用できるかを体験します。アートやデザインにもたらす変革を探りつつ、その限界や課題についても批判的に考察します。
 
-### 生成AIへのスタンス
+### 生成AIに対するスタンス
 
-生成AIの登場は、インターネット検索エンジンの登場時と似ています。
+生成AIの出現は、インターネット検索エンジンの登場に似ています。
 
-  * **強力な利便性**: 「検索」から「相談」へ。膨大なデータから新たなものを生成可能です。
-  * **問題点**: ハルシネーション（嘘）、著作権、情報漏洩、倫理的な課題も存在します。
-  * **本ワークショップの立場**:
-      * AIを盲信したり、無批判に受け入れたりするわけではありません。
-      * しかし、拒否するのでもなく、その利便性を享受しつつ、問題や構造について**批判的に考えていく**ことが重要です。
-      * まずは技術について正確なイメージを持つために、積極的に触れて試していきます。
+  * **強力な利便性**：「検索」から「相談」へのシフト。膨大なデータから新しいものを生成できます。
+  * **問題点**：ハルシネーション（嘘）、著作権、情報漏洩、倫理的課題なども存在します。
+  * **本ワークショップの立ち位置**：
+      * AIを盲信したり、無批判に受け入れたりはしません。
+      * しかし、拒絶するのではなく、問題や構造を**批判的に考え**ながら、その利便性を享受することが重要です。
+      * まずは実際に触れて技術に積極的に関わり、正確な理解を目指します。
 
-## 生成AIの基礎知識 - TransformerとLLM
+## 生成AIの基礎 - TransformerとLLM
 
 ### AI / ML / DL / GenAI の関係
 
-  * **人工知能 (AI)**: 人間の知能を模倣するコンピューターシステム。（最も広い概念）
-  * **機械学習 (ML)**: データからパターンを学習するAIの一分野。
-  * **深層学習 (DL)**: 人間の脳神経を模したニューラルネットワークを用いるMLの手法。
-  * **生成AI (GenAI)**: 新しいコンテンツ（テキスト、画像、音楽など）を生成するDLの一部。
+  * **人工知能 (AI)**：人間の知能を模倣するコンピュータシステム。（最も広い概念）
+  * **機械学習 (ML)**：データからパターンを学習するAIの一分野。
+  * **ディープラーニング (DL)**：人間の脳をモデルにしたニューラルネットワークを使用するMLの手法。
+  * **生成AI (GenAI)**：新しいコンテンツ（テキスト、画像、音楽など）を生成するDLの一部。
   * (参考動画: [Introduction to Generative AI](https://youtu.be/u3FQgoKEnZk?si=1ieVJ3BkRkKk38_d))
 
-### ChatGPTに至る30年の歴史
+<img src = "https://i.ytimg.com/vi/G2fqAlgmoPo/maxresdefault.jpg" width = "480" />
 
-  * **初期 (1980s)**: 再帰型ニューラルネットワーク (RNN) が「記憶」の概念を導入し、順序学習（例：単語の予測）の研究が始まりました。
-  * **転換点 (2017)**: **Transformer** アーキテクチャが開発されました。
-  * **進化 (2018-2020)**:
-      * **GPT-1**: Transformerを「次の単語予測」に適用しました。
-      * **GPT-2**: Webから収集した大規模データで学習しました。
-      * **GPT-3**: 1750億パラメータ。ゼロショット学習（指示だけでタスク実行）が可能になりました。
+### ChatGPTにつながる30年の歴史
+
+  * **初期 (1980年代)**：リカレントニューラルネットワーク (RNN) が「記憶」の概念を導入し、系列学習（単語予測など）の研究が始まりました。
+  * **転換点 (2017年)**：**Transformer**アーキテクチャが開発されました。
+  * **進化 (2018-2020年)**：
+      * **GPT-1**：Transformerを「次の単語予測」に応用。
+      * **GPT-2**：Webから収集した大規模データで学習。
+      * **GPT-3**：1750億パラメータ。ゼロショット学習（指示だけでタスクをこなすこと）が可能に。
   * (参考動画: [ChatGPT: 30 Year History | How AI Learned to Talk](https://youtu.be/OFS90-FX6pg?si=ju7SE-nF-FNRnB9s))
+
+<img src = "https://i.ytimg.com/vi/OFS90-FX6pg/maxresdefault.jpg" width = "480" />
 
 ### LLMとTransformerの仕組み
 
-  * **LLMの本質**: 次に来る単語を**確率的に予測する**数学的関数です。
-  * **Transformer**:
-      * かつてのモデル（RNN）は1単語ずつ処理していました。
-      * Transformerは、テキスト全体を**並列処理**できます。
-  * **アテンション機構 (Attention)**:
-      * Transformerの核となる技術です。
-      * 文中の各単語が、他のどの単語と強く関連しているかを計算します。
-      * これにより、文脈に合った意味を理解できます（例: 「バンク」が「銀行」なのか「川岸」なのかを判断）。
-  * **参考資料**:
-      * 動画: [LLMの仕組み（簡単バージョン）](https://www.youtube.com/watch?v=y7NQiNER6r4)
-      * 図解: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-      * インタラクティブ: [TRANSFORMER EXPLAINER](https://poloclub.github.io/transformer-explainer/)
+  * **LLMの本質**：これらは**確率的に次の単語を予測する**数学的な関数です。
 
+  * **Transformer**：
 
-## 生成芸術の歴史とAI作品事例
+      * 以前のモデル（RNN）は単語を一つずつ処理していました。
+      * Transformerはテキスト全体を**並列**に処理できます。
 
-### 生成芸術 (Generative Art) とは？
+  * **Attention Mechanism (Attention)**：
 
-  * **生成芸術 (Generative Art)**: アーティストが作品そのものを直接制作するのではなく、作品が生成される「**ルール**」や「**プロセス**」、「**システム**」を設定する芸術です。
-  * アルゴリズムやシステムが、自律的に作品を生成します。
-  * 現在の「**生成AI**」は、この生成芸術の最新の形態と捉えることができます。
+      * Transformerの核心技術です。
+      * 文中の各単語が他の単語とどれだけ強く関連しているかを計算します。
+      * これにより、文脈に応じた意味（例：「bank」が金融機関か土手か）を理解可能にします。
+
+  * **参考文献**：
+    動画: [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+
+    <img src = "https://i.ytimg.com/vi/LPZh9BOjkQs/maxresdefault.jpg" width = "480" />
+
+    図解ガイド: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+
+    <img src = "https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" width = "480" />
+
+    インタラクティブ解説: [Transformer Explainer: LLM Transformer Model Visually Explained](https://poloclub.github.io/transformer-explainer/)
+
+    <img src = "https://poloclub.github.io/transformer-explainer/article_assets/attention.png" width = "480" />
+      
+
+## ジェネラティブアートの歴史とAIアートの事例
+
+### ジェネラティブアートとは？
+
+  * **ジェネラティブアート**：アーティストが作品そのものを直接作るのではなく、作品を生成する「**ルール**」「**プロセス**」「**システム**」を定義する芸術です。
+  * アルゴリズムやシステムが自律的に作品を生成します。
+  * 現在の「**生成AI**」は、このジェネラティブアートの最新形態と見ることができます。
   * (参考動画: [What is Generative Art: TouchDesigner’s Role](https://www.youtube.com/watch?v=1RD83NjwNIk))
 
-### 生成芸術の歴史 (抜粋)
+<img src = "https://i.ytimg.com/vi/1RD83NjwNIk/maxresdefault.jpg" width = "480" />
 
-(参考資料: [Generative Art Timeline](https://timeline.lerandom.art/))
+### ジェネラティブアートの歴史（抜粋）
 
-  * **1950s (アナログ時代)**: ベン・ラポスキーがオシロスコープで『Electronic Abstractions』を制作しました。
-  * **1960s (デジタル時代)**: フリーダー・ナーケらが初期のコンピューターとプロッター（描画機）でアルゴリズムによるドローイングを制作しました。
-  * **1970s (アーティスト・プログラマー時代)**: ハロルド・コーエンがAIアートの先駆け『AARON』を開発しました。
-  * **1990s (ネット時代)**: ジョン・マエダが『Design By Numbers』を発表しました。
-  * **2000s (ツール時代)**: **Processing** や **openFrameworks** が登場し、クリエイティブ・コーディングが普及しました。
-  * **2010s (AI時代)**: Googleの**DeepDream** (2015) やGANが登場しました。
-  * **2020s (オンチェーン / 拡散モデル時代)**: DALL-E (2021)、Stable Diffusion (2021) が登場しました。
+(参考: [Generative Art Timeline](https://timeline.lerandom.art/))
 
-### AIを用いた芸術作品の事例
+  * **1950年代 (アナログ時代)**：ベン・ラポスキーがオシロスコープを使って「Electronic Abstractions」を制作。
+  * **1960年代 (デジタル時代)**：フリーダー・ナケなどのアーティストが初期のコンピュータとプロッターでアルゴリズムによる描画を作成。
+  * **1970年代 (アーティスト・プログラマー時代)**：ハロルド・コーエンがAIアートの先駆者「AARON」を開発。
+  * **1990年代 (ネット時代)**：ジョン・マエダが「Design By Numbers」を発表。
+  * **2000年代 (ツール化時代)**：**Processing**や**openFrameworks**が登場し、クリエイティブコーディングが普及。
+  * **2010年代 (AI時代)**：Googleの**DeepDream** (2015) やGANが登場。
+  * **2020年代 (オンチェーン / 拡散モデル時代)**：DALL-E (2021) やStable Diffusion (2021) が導入されました。
 
-  * **[Refik Anadol, *Unsupervised* (2023)](https://refikanadol.com/works/unsupervised/)**
-      * MoMA（ニューヨーク近代美術館）のコレクション全作品をAIに学習させ、リアルタイムで新たな「機械の幻覚」を生成し続ける作品です。
-  * **[徳井直生 - AI DJ Project (2016)](https://qosmo.jp/art/ai-dj-human-dj-b2b)**
-      * AIと人間のDJがB2B（交互に選曲）形式でパフォーマンスするプロジェクトです。
-  * **[The Beatles, *Now And Then* (2023)](https://youtu.be/AW55J2zE3N4?si=1A18nDsyifkysFAJ)**
-      * AI技術を使用し、ジョン・レノンの古いデモテープからボーカルとピアノの音を分離しました。クリアになったボーカルを基に、残りのメンバーが演奏を加え、ビートルズ最後の新曲として完成させました。
+<img src = "https://pbs.twimg.com/media/FzO22nRaEAMPItv?format=jpg&name=4096x4096" width = "480" />  
 
-### キュレーターの視点：何がアートか？
+### AIを活用したアート作品例
 
-  * The New York Timesの記事「[AIの氾濫の中で、何がアートにあたるのか？](https://www.nytimes.com/2025/10/18/arts/design/artificial-intelligence-art-museums.html)」 によると、多くのキュレーターは、AIアートの価値を技術的な目新しさではなく、その背後にあるアーティストの「**意図**」や「**プロセス**」にあると考えています。
-  * MoMAのキュレーターは「テクノロジーがアートなのではなく、最終的には**個人の創造性とビジョン**が重要だ」と述べています。
-  * 特に、アーティスト自身がAIモデルの構築や学習データの選別に深く関わる作品が高く評価されています。
+**[Refik Anadol, *Unsupervised* (2023)](https://refikanadol.com/works/unsupervised/)**
 
-## 生成AIを活用した創作ワークショップ
+<img src = "https://dpk6zrxldcuco.cloudfront.net/2023/annual/professional/31079cd9-f223-477c-82fe-8a0b230a2c40/860x484q80-smart.jpg" width = "480" />
 
-### 4-1. 画像生成（実習）
+  * MoMA（ニューヨーク近代美術館）の全コレクションをAIに学習させ、新たな「機械の幻覚」をリアルタイムで生成し続ける作品。
 
-テキストから画像を生成するAIです。様々なスタイルや指示に対応可能です。
+**[Nao Tokui - AI DJ Project (2016)](https://qosmo.jp/art/ai-dj-human-dj-b2b)**
 
-  * **主なサービス**:
+<img src = "https://www.naotokui.net/wp-content/uploads/2018/01/26A0877-800x533.jpg" width = "480" />
 
-      * **[Google ImageFX](https://labs.google/fx/tools/image-fx)**: 高品質でリアルな画像が得意です。無料で利用可能です。
-      * **[DALL-E 3 (ChatGPT内)](https://chatgpt.com)**: 指示への忠実度が高く、テキスト描画が得意です。
-      * **[Midjourney](https://www.midjourney.com)**: 芸術的・幻想的な品質が非常に高いです。Discord経由で使用します（有料）。
-      * **[Stable Diffusion](https://stability.ai/stable-image)**: オープンソースです。ローカル環境で実行でき、カスタマイズ性が最も高いです。
+  * AIと人間のDJがB2B（バック・トゥ・バック）形式で、交互に選曲を行うプロジェクト。
 
-  * **実習**:
+**[The Beatles, *Now And Then* (2023)](https://youtu.be/AW55J2zE3N4?si=1A18nDsyifkysFAJ)**
 
-      * **ツール**: [Google ImageFX](https://labs.google/fx/tools/image-fx) または [DALL-E 3 (ChatGPT内)](https://chatgpt.com/)
-      * **お題**:
-        1.  簡単なプロンプトを試す。
-              * 例: `油絵風の、宇宙服を着た猫`
-        2.  ImageFXの「表現力チップ」（太字の単語）を色々変えて、変化を試す。
-              * 例: `**印象派**風の、**サイバーパンクな**宇宙服を着た、**怒っている**猫`
-        3.  （DALL-E 3の場合）対話形式で修正してみる。
-              * 例: `もっと猫を大きくして、背景を月に変えて`
+<img src = "https://i.ytimg.com/vi/Opxhh9Oh3rg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD\&rs=AOn4CLDToUSNIbJe9wSRyCjtebMv3j-HuQ" width = "480" />
 
-### 4-2. 動画生成（実習）
+  * AI技術を用いて古いデモテープからジョン・レノンのボーカルとピアノを分離。クリアになったボーカルを基に残りのメンバーが新たな演奏を加え、ビートルズ最後の新曲として完成させました。
+
+### キュレーターの視点：何がアートと見なされるか？
+
+<img src = "https://static01.nyt.com/images/2025/10/19/multimedia/19sp-finearts-AI-02-kvzt/19sp-finearts-AI-02-kvzt-articleLarge.jpg?quality=75\&auto=webp\&disable=upscale" width = "480" />
+
+  * ニューヨーク・タイムズの記事「[Amid the A.I. Deluge, What Counts as Art?](https://www.nytimes.com/2025/10/18/arts/design/artificial-intelligence-art-museums.html)」によると、多くのキュレーターはAIアートの価値を技術的新規性ではなく、その背後にあるアーティストの「**意図**」と「**プロセス**」に見出しています。
+  * MoMAのキュレーターは、「技術がアートなのではない。最終的に重要なのは**個人の創造性とビジョン**だ」と述べています。
+  * アーティストがAIモデルの構築やデータの選定に深く関わっている作品は、特に高く評価されます。
+
+## 生成AIを活用したクリエイティブワークショップ
+
+### 4-1. 画像生成（実践）
+
+テキストから画像を生成するAIです。多様なスタイルや指示に対応できます。
+
+  * **主なサービス**：
+
+      * **[Google ImageFX](https://labs.google/fx/tools/image-fx)**：高品質でリアルな画像が得意。無料で利用可能。
+      * **[DALL-E 3 (in ChatGPT)](https://chatgpt.com)**：指示への忠実度が高く、テキストの描画に優れています。
+      * **[Midjourney](https://www.midjourney.com)**：芸術的で幻想的な品質が非常に高い。Discord経由で利用（有料）。
+      * **[Stable Diffusion](https://stability.ai/stable-image)**：オープンソース。ローカル環境での実行が可能で、カスタマイズ性が最も高い。
+
+  * **実践**：
+
+      * **ツール**：[Google ImageFX](https://labs.google/fx/tools/image-fx) または [DALL-E 3 (in ChatGPT)](https://chatgpt.com/)
+      * **プロンプト/タスク**：
+        1.  シンプルなプロンプトを試す。
+              * 例：`宇宙服を着た猫の油絵`
+        2.  ImageFXの「Expressive chips」（太字の単語）を変更してバリエーションを見る。
+              * 例：`**サイバーパンクな**宇宙服を着た**怒った**猫の**印象派の**絵画`
+        3.  (DALL-E 3の場合) 会話形式で修正してみる。
+              * 例：`猫をもっと大きくして、背景を月に変えて`
+
+### 4-2. 映像生成（実践）
 
 テキストや画像から動画を生成するAIです。急速に進化している分野です。
 
-  * **技術の進化**:
+  * **技術の進化**：
 
-      * **GAN (〜2019)**: リアルだが不安定な映像（例: [Deep Dream](https://github.com/google/deepdream)風）。
-      * **拡散モデル + Transformer (現在)**: ノイズから高品質な映像を生成します。SoraやVeoはこの技術がベースです。
+      * **GAN (〜2019)**：リアルだが不安定な映像（例：[Deep Dream](https://github.com/google/deepdream)スタイル）。
+      * **拡散モデル + Transformer (現在)**：ノイズから高品質な動画を生成。SoraやVeoはこの技術に基づいています。
 
-  * **主なサービス**:
+  * **主なサービス**：
 
-      * **[OpenAI Sora](https://sora.com/)**: 物理法則を理解し、1分以上の高解像度動画と音声を生成します（限定公開中）。
-      * **[Google Veo (Flow内)](https://labs.google/flow)**: 映画的な表現言語の理解に優れます（限定公開中）。
-      * **[Luma AI Dream Machine](https://lumalabs.ai)**: 高速で使いやすく、品質も高いです（無料枠あり）。
-      * **[Pika](https://pika.art)**: クリエイティブなエフェクトやアニメ調の変換が得意です（無料枠あり）。
+      * **[OpenAI Sora](https://sora.com/)**: 物理法則を理解し、高解像度の動画（1分以上）と音声を生成（アクセス制限あり）。
+      * **[Google Veo (in Flow)](https://labs.google/flow)**：映画的な言語の理解に優れています（アクセス制限あり）。
+      * **[Luma AI Dream Machine](https://lumalabs.ai)**：高速で使いやすく、高品質（無料枠あり）。
+      * **[Pika](https://pika.art)**：クリエイティブなエフェクトやアニメ風の変換が得意（無料枠あり）。
 
+  * **実践**：
 
-  * **実習**:
-
-      * **ツール**: [Luma AI Dream Machine](https://lumalabs.ai) または [Pika](https://pika.art)
-      * **お題**:
+      * **ツール**：[Luma AI Dream Machine](https://lumalabs.ai) または [Google Veo (in Flow)](https://labs.google/flow)
+      * **プロンプト/タスク**：
         1.  テキストから動画を生成する。
-              * 例: `A cinematic shot of a raccoon detective in a trench coat, walking through a rainy neon-lit city street at night.`
-        2.  （もし手持ちの画像があれば）画像をアップロードし、動きをつけてみる。
-              * 例: 先ほど画像生成AIで作った「宇宙服の猫」の画像を動かしてみる。
+              * 例：`トレンチコートを着たアライグマの探偵が、雨の降るネオン街を歩いている映画のようなショット。`
+        2.  (画像がある場合) 画像をアップロードして動かしてみる。
+              * 例：先ほど生成した「宇宙服を着た猫」の画像を動かしてみてください。
 
-### 4-3. 音楽生成（実習）
+### 4-3. 音楽生成（実践）
 
-テキスト（歌詞や雰囲気）からボーカルや伴奏を含む楽曲を生成するAIです。
+テキスト（歌詞や雰囲気）から、ボーカルと伴奏を含む完全な楽曲を生成するAIです。
 
-  * **主なサービス**:
+  * **主なサービス**：
 
-      * **[Suno AI](https://suno.com/)**: 日本語の歌詞にも対応しています。ジャンルやスタイルを指定して高品質な楽曲（ボーカル含む）を生成します。
-      * **[Google MusicFX DJ](https://aitestkitchen.withgoogle.com/tools/music-fx-dj)**: 楽器、ジャンル、感情などを組み合わせてリアルタイムに音楽を生成・リミックスできます。
+      * **[Suno AI](https://suno.com/)**: 日本語の歌詞にも対応。ジャンルやスタイルを指定して高品質な楽曲（ボーカル入り）を生成。
+      * **[Google MusicFX DJ](https://aitestkitchen.withgoogle.com/tools/music-fx-dj)**：楽器、ジャンル、雰囲気を組み合わせて、リアルタイムで音楽生成とリミックスが可能。
 
-  * **実習**:
+  * **実践**：
 
-      * **ツール**: [Suno AI](https://suno.com/)
-      * **お題**:
-        1.  「カスタムモード」をオンにします。
-        2.  **歌詞 (Lyrics)** を入力します（日本語可）。
-              * 例:
+      * **ツール**：[Suno AI](https://suno.com/), [Google MusicFX DJ](https://aitestkitchen.withgoogle.com/tools/music-fx-dj)
+      * **プロンプト/タスク**：
+        1.  「Custom Mode」をオンにする。
+        2.  **歌詞**を入力する（日本語OK）。
+              * 例：
                 ```
-                (verse 1)
+                (Aメロ)
                 雨上がりのアスファルト
                 ネオンが滲む夜
-                (chorus)
+                (サビ)
                 AIが見る夢は
                 電気羊のメロディ
                 ```
-        3.  **スタイル (Style of Music)** を指定します。
-              * 例: `City Pop, 80s Japanese, Lo-fi`
-        4.  生成された2パターンの曲を聴き比べます。
+        3.  **音楽のスタイル**を指定する。
+              * 例：`シティポップ, 80年代歌謡曲, ローファイ`
+        4.  生成された2つのバリエーションを聴き比べる。
 
-### 4-4. プログラミング（実習）
+### 4-4. プログラミング（実践）
 
-AIがコードの生成、補完、デバッグ（エラー修正）を支援します。
+AIによるコードの生成、補完、デバッグ（エラー修正）の支援です。
 
   * **題材**: **[p5.js](https://p5js.org/)**
 
-      * ビジュアルアートのためのプログラミング言語です。Webブラウザで実行可能です。
+      * ビジュアルアートのためのプログラミング言語。Webブラウザ上で直接実行できます。
 
-  * **主なAIツール**:
+  * **主なAIツール**：
 
-      * **ChatGPT**: 最も手軽です。「p5.jsで〜するコードを書いて」と質問できます。
-      * **[p5.CodingWithAI](https://app.kyabe.net/p5-coding-with-ai/)**: p5.js専用エディタです。AIと対話しながらコードを改良できます。
-      * **[Github Copilot](https://github.com/features/copilot)**: VSCodeなどのエディタに統合されています。プロ向けの強力なコード補完・生成ツールです。
+      * **ChatGPT**: 最も手軽な方法。「p5.jsで〜するコードを書いて」と頼めます。
+      * **[p5.CodingWithAI](https://app.kyabe.net/p5-coding-with-ai/)**: 専用のp5.jsエディタ。AIと対話しながらコードを洗練できます。
+      * **[Github Copilot](https://github.com/features/copilot)**: VSCodeなどのエディタに統合。プロ向けの強力なコード補完・生成ツール。
 
-  * **実習**:
+  * **実践**：
 
-      * **ツール**: [ChatGPT](https://chatgpt.com/) + **[p5.js Web Editor](https://editor.p5js.org/)** または [p5.CodingWithAI](https://app.kyabe.net/p5-coding-with-ai/)
-      * **お題**:
-        1.  ChatGPTに最初のコードを生成させます。
-              * プロンプト: `p5.jsを使って、マウスの位置についてくる円を描くプログラムを作成してください。背景は黒にしてください。`
-        2.  生成されたコードを p5.js Editor にコピー＆ペーストして実行します。
-        3.  ChatGPTに追加の指示を出して改良します。
-              * プロンプト: `円の色を、マウスをクリックしたらランダムに変わるように変更してください。`
-        4.  変更後のコードを再度実行し、変化を確認します。
+      * **ツール**：[ChatGPT](https://chatgpt.com/) + **[p5.js Web Editor](https://editor.p5js.org/)** または [p5.CodingWithAI](https://app.kyabe.net/p5-coding-with-ai/)
+      * **プロンプト/タスク**：
+        1.  ChatGPTに初期コードを生成させる。
+              * プロンプト：`p5.jsを使って、マウスの位置に追従して円を描くプログラムを作ってください。背景は黒にしてください。`
+        2.  生成されたコードをp5.jsエディタにコピー＆ペーストして実行する。
+        3.  ChatGPTに追加の指示を出して修正する。
+              * プロンプト：`マウスをクリックした時に、円の色がランダムに変わるように変更してください。`
+        4.  修正されたコードを再度実行して結果を確認する。
 
-## まとめ
+## 結論
 
-### 生成AIと創作の未来
+### 生成AIと創造の未来
 
-  * **AIはツールか、協力者か？**:
-      * 本日の実習のように、AIはアイデアを形にする強力な「ツール」です。
-      * 同時に、人間の意図を汲み取り、予想外の提案をする「協力者」にもなり得ます。
-  * **人間の役割**:
-      * 「何を創りたいか」という**ビジョン**と「問い」を立てる力。
-      * AIの出力を**評価・選別**し、改良の指示を出す「編集」能力。
-      * AIが学習していない、新しい**文脈**や**プロセス**を設計する力。
-  * **課題**: データの偏り、著作権、エネルギー消費など、技術の背後にある問題を批判的に見続ける必要があります。
+  * **AIはツールか、コラボレーターか？**：
+      * 今日の実践で見たように、AIはアイデアを形にするための強力な「ツール」です。
+      * 同時に、人間の意図を汲み取り、予期せぬ提案をしてくれる「コラボレーター」にもなり得ます。
+  * **人間の役割**：
+      * 「何を作るか」という**ビジョン**と、問いを立てる力。
+      * AIのアウトプットを**評価・選択**し、修正指示を出す「編集」能力。
+      * AIが学習していない新しい**文脈**や**プロセス**を設計する力。
+  * **課題**：データのバイアス、著作権、エネルギー消費など、技術の背後にある問題を批判的に見つめ続ける必要があります。
