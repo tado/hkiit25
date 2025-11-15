@@ -7,7 +7,7 @@ The workshop information for Hong Kong Institute of Information Technology (HKII
 ## Workshop Details
 
 Day 1: (12/06)
-- [Opening Session: Introduction to the workshop's purpose and overview](01-01_workshop_en.md)
+- [Opening Session: Introduction to the workshop's purpose and overview](01-01_workshop_intro_en.md)
 - [Workshop 1: The Future of Generative AI and Creation](01-02_workshop01_ai_en.md)
 
 Day 2: (12/08)
