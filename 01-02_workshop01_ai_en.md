@@ -27,6 +27,8 @@ The emergence of Generative AI is similar to the advent of internet search engin
   * **Generative AI (GenAI)**: A subset of DL that generates new content (text, images, music, etc.).
   * (Reference Video: [Introduction to Generative AI](https://youtu.be/u3FQgoKEnZk?si=1ieVJ3BkRkKk38_d))
 
+<img src = "https://i.ytimg.com/vi/G2fqAlgmoPo/maxresdefault.jpg" width = "480" />  
+
 ### The 30-Year History Leading to ChatGPT
 
   * **Early Days (1980s)**: Recurrent Neural Networks (RNNs) introduced the concept of "memory," and research on sequential learning (e.g., word prediction) began.
@@ -36,6 +38,8 @@ The emergence of Generative AI is similar to the advent of internet search engin
       * **GPT-2**: Trained on large-scale data collected from the web.
       * **GPT-3**: 175 billion parameters. Became capable of zero-shot learning (performing tasks from instructions alone).
   * (Reference Video: [ChatGPT: 30 Year History | How AI Learned to Talk](https://youtu.be/OFS90-FX6pg?si=ju7SE-nF-FNRnB9s))
+
+<img src = "https://i.ytimg.com/vi/OFS90-FX6pg/maxresdefault.jpg" width = "480" />  
 
 ### How LLMs and Transformers Work
 
@@ -48,9 +52,9 @@ The emergence of Generative AI is similar to the advent of internet search engin
       * It calculates how strongly each word in a sentence is related to other words.
       * This allows it to understand context-appropriate meaning (e.g., determining if "bank" means a financial institution or a riverbank).
   * **References**:
-      * Video: [How LLMs Work (Simple Version)](https://www.youtube.com/watch?v=y7NQiNER6r4)
-      * Illustrated Guide: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
-      * Interactive: [TRANSFORMER EXPLAINER](https://poloclub.github.io/transformer-explainer/)
+      * Video: [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs)  <img src = "https://i.ytimg.com/vi/LPZh9BOjkQs/maxresdefault.jpg" width = "480" />
+      * Illustrated Guide: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)  <img src = "https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" width = "480" />
+      * Interactive: [Transformer Explainer: LLM Transformer Model Visually Explained](https://poloclub.github.io/transformer-explainer/)  <img src = "https://poloclub.github.io/transformer-explainer/article_assets/attention.png" width = "480" />
 
 ## History of Generative Art and AI Art Examples
 
@@ -60,6 +64,8 @@ The emergence of Generative AI is similar to the advent of internet search engin
   * Algorithms or systems autonomously generate the artwork.
   * Current "**Generative AI**" can be seen as the latest form of this generative art.
   * (Reference Video: [What is Generative Art: TouchDesigner’s Role](https://www.youtube.com/watch?v=1RD83NjwNIk))
+
+<img src = "https://i.ytimg.com/vi/1RD83NjwNIk/maxresdefault.jpg" width = "480" />  
 
 ### History of Generative Art (Excerpts)
 
@@ -73,16 +79,23 @@ The emergence of Generative AI is similar to the advent of internet search engin
   * **2010s (AI Era)**: Google's **DeepDream** (2015) and GANs appeared.
   * **2020s (On-Chain / Diffusion Model Era)**: DALL-E (2021) and Stable Diffusion (2021) were introduced.
 
+<img src = "https://pbs.twimg.com/media/FzO22nRaEAMPItv?format=jpg&name=4096x4096" width = "480" />  
+
 ### Examples of AI-Powered Artworks
 
   * **[Refik Anadol, *Unsupervised* (2023)](https://refikanadol.com/works/unsupervised/)**
+  <img src = "https://dpk6zrxldcuco.cloudfront.net/2023/annual/professional/31079cd9-f223-477c-82fe-8a0b230a2c40/860x484q80-smart.jpg" width = "480" />
       * A work that trained an AI on the entire collection of MoMA (Museum of Modern Art) and continuously generates new "machine hallucinations" in real-time.
   * **[Nao Tokui - AI DJ Project (2016)](https://qosmo.jp/art/ai-dj-human-dj-b2b)**
+  <img src = "https://www.naotokui.net/wp-content/uploads/2018/01/26A0877-800x533.jpg" width = "480" />
       * A project where an AI and a human DJ perform in a B2B (back-to-back) format, taking turns selecting music.
   * **[The Beatles, *Now And Then* (2023)](https://youtu.be/AW55J2zE3N4?si=1A18nDsyifkysFAJ)**
-      * Using AI technology, John Lennon's vocals and piano were separated from an old demo tape. Based on the clarified vocals, the remaining members added new performances, completing it as the final new song by The Beatles.
+  <img src = "https://i.ytimg.com/vi/Opxhh9Oh3rg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDToUSNIbJe9wSRyCjtebMv3j-HuQ" width = "480" />
+      * Using AI technology, John Lennon's vocals and piano were separated from an old demo tape. Based on the clarified vocals, the remaining members added new performanc>es, completing it as the final new song by The Beatles.
 
 ### A Curator's Perspective: What Counts as Art?
+
+<img src = "https://static01.nyt.com/images/2025/10/19/multimedia/19sp-finearts-AI-05-kvzt/19sp-finearts-AI-05-kvzt-articleLarge.jpg?quality=75&auto=webp&disable=upscale" width = "480" />
 
   * According to The New York Times article "[Amid the A.I. Deluge, What Counts as Art?](https://www.nytimes.com/2025/10/18/arts/design/artificial-intelligence-art-museums.html)," many curators believe the value of AI art lies not in its technical novelty, but in the artist's "**intention**" and "**process**" behind it.
   * A MoMA curator states, "The technology isn't the art; ultimately, it's the **individual creativity and vision** that matters."
@@ -130,7 +143,7 @@ AI that generates videos from text or images. This field is evolving rapidly.
       
   * **Practice**:
 
-      * **Tools**: [Luma AI Dream Machine](https://lumalabs.ai) or [Pika](https://pika.art)
+      * **Tools**: [Luma AI Dream Machine](https://lumalabs.ai) or [Google Veo (in Flow)](https://labs.google/flow)
       * **Prompt/Task**:
         1.  Generate a video from text.
               * Example: `A cinematic shot of a raccoon detective in a trench coat, walking through a rainy neon-lit city street at night.`
@@ -148,7 +161,7 @@ AI that generates full songs, including vocals and accompaniment, from text (lyr
 
   * **Practice**:
 
-      * **Tools**: [Suno AI](https://suno.com/)
+      * **Tools**: [Suno AI](https://suno.com/), [Google MusicFX DJ](https://aitestkitchen.withgoogle.com/tools/music-fx-dj)
       * **Prompt/Task**:
         1.  Turn on "Custom Mode".
         2.  Input **Lyrics** (Japanese is okay).
