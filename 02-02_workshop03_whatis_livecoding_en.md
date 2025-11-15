@@ -7,7 +7,7 @@
 **Algorave Generation | Resident Advisor**
 https://youtu.be/S2EZqikCIfY
 
-![height:360](https://i.ytimg.com/vi/S2EZqikCIfY/maxresdefault.jpg)
+<img src="https://i.ytimg.com/vi/S2EZqikCIfY/maxresdefault.jpg" width = "480" />
 
 # Live coding
 
@@ -38,7 +38,7 @@ First, let's consider the meaning of "live"
 
 [Turtle graphics](https://el.media.mit.edu/logo-foundation/what_is_logo/logo_primer.html)
 
-![height:480](https://cdn-blog.adafruit.com/uploads/2019/01/logo-wide-1.png)
+<img src = "https://cdn-blog.adafruit.com/uploads/2019/01/logo-wide-1.png" width = "480" />
 
 ## Live - Live Editing of Code
 
@@ -46,7 +46,7 @@ First, let's consider the meaning of "live"
 
 [Bret Victor - Inventing on Principle](https://vimeo.com/906418692?share=copy#t=150.357)
 
-![height:360](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3-_dj3TtwAfQk5O3sDEJVIR6fUWayfQLOw&s)
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3-_dj3TtwAfQk5O3sDEJVIR6fUWayfQLOw&s" width = "480" />
 
 
 
@@ -54,13 +54,13 @@ First, let's consider the meaning of "live"
 
 [**p5.js editor**](https://editor.p5js.org/)
 
-![height:380](https://repository-images.githubusercontent.com/57940487/285cbed2-c56a-4007-a575-535d2275f41a)
+<img src = "https://repository-images.githubusercontent.com/57940487/285cbed2-c56a-4007-a575-535d2275f41a" width = "480" />
 
 ## Live - Live Editing of Code
 
 [**Kodelife**](https://hexler.net/kodelife)
 
-![height:380](https://hexler.net/gfx/_news/kodelife-compute-mandelbrot.png)
+<img src = "https://hexler.net/gfx/_news/kodelife-compute-mandelbrot.png" width = "480" />
 
 # Live - Coding as a Live Performance
 
@@ -77,7 +77,7 @@ First, let's consider the meaning of "live"
 **1990’s Laptronica (Live electronic music)**
 Farmers Manual
 
-![height:360](https://upload.wikimedia.org/wikipedia/commons/1/15/Farmers_Manual_2002.jpg)
+<img src = "https://upload.wikimedia.org/wikipedia/commons/1/15/Farmers_Manual_2002.jpg" width = "480" />
 
 ## Live - Coding as a Live Performance
 
@@ -85,7 +85,7 @@ Farmers Manual
 Example: Mark Fell - Mark FELL_Concert PRESENCES électronique 2014
 https://youtu.be/s15wdk2xQik
 
-![height:360](https://i.ytimg.com/vi/s15wdk2xQik/maxresdefault.jpg)
+<img src = "https://i.ytimg.com/vi/s15wdk2xQik/maxresdefault.jpg" width = "480" />
 
 ## Live - Coding as a Live Performance
 
@@ -110,7 +110,7 @@ https://vimeo.com/20241649?share=copy
 Started experimenting with projecting the programming process onto a screen during performances
 http://slub.org/
 
-![height:360](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Slub_live_Roebuck.jpg/1200px-Slub_live_Roebuck.jpg)
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Slub_live_Roebuck.jpg/1200px-Slub_live_Roebuck.jpg" width = "480" />
 
 ## Live - Coding as a Live Performance
 
@@ -124,7 +124,7 @@ https://youtu.be/Z-8DX7g2zEc
 Alex McLean's performance at DOMMUNE during his 2018 visit to Japan
 https://www.youtube.com/watch?v=dIpzU71LAQQ
 
-![height:360](https://i.ytimg.com/vi/dIpzU71LAQQ/maxresdefault.jpg)
+<img src = "https://i.ytimg.com/vi/dIpzU71LAQQ/maxresdefault.jpg" width = "480" />
 
 
 
@@ -144,7 +144,7 @@ https://youtu.be/BvXUK6FXPu8
 - TOPLAP (2004) : The live coding community
 - https://toplap.org/
 
-![height:360](https://raw.githubusercontent.com/toplap/awesome-livecoding/images/toplap-circle.png)
+<img src = "https://raw.githubusercontent.com/toplap/awesome-livecoding/images/toplap-circle.png" width = "480" />
 
 ## Algorave
 
@@ -152,7 +152,7 @@ https://youtu.be/BvXUK6FXPu8
 - Parties centered around performances using live coding
 - https://algorave.com/
 
-![height:360](https://www.cityofmediaarts.de/wp-content/uploads/2022/03/Algorave-1024x639.jpg)
+<img src = "https://www.cityofmediaarts.de/wp-content/uploads/2022/03/Algorave-1024x639.jpg" width = "480" />
 
 ## TOPLAP Manifesto
 
@@ -166,4 +166,4 @@ http://toplap.org/wiki/ManifestoDraft
 - Live coding is not about tools. Algorithms are thoughts. Chainsaws are tools. That's why algorithms are sometimes harder to notice than chainsaws.
 25
 
-## Now, let's actually experience live coding!
+### Now, let's start live coding!
