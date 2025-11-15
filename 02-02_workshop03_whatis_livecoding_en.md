@@ -1,7 +1,5 @@
 # Workshop 03<br/>What is Live Coding?
 
-Atsushi Tadokoro
-
 # Introduction
 
 ## Introduction

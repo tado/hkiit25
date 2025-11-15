@@ -12,7 +12,7 @@ Day 1: (12/06)
 
 Day 2: (12/08)
 - [Workshop 2: TidalCycles Installation Party](02-01_workshop02_tidalinstall_en.md)
-- Workshop 3: What is Live Coding? TidalCycles Basic Tutorial
+- [Workshop 3: What is Live Coding?](02-02_workshop03_whatis_livecoding_en.md) /  TidalCycles Basic Tutorial
 
 Day 3: (12/09)
 - Workshop 4: TidalCycles Practical Tutorai 1
