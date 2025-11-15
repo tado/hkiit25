@@ -52,9 +52,17 @@ The emergence of Generative AI is similar to the advent of internet search engin
       * It calculates how strongly each word in a sentence is related to other words.
       * This allows it to understand context-appropriate meaning (e.g., determining if "bank" means a financial institution or a riverbank).
   * **References**:
-      * Video: [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs)<br><img src = "https://i.ytimg.com/vi/LPZh9BOjkQs/maxresdefault.jpg" width = "480" />
-      * Illustrated Guide: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)<br><img src = "https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" width = "480" />
-      * Interactive: [Transformer Explainer: LLM Transformer Model Visually Explained](https://poloclub.github.io/transformer-explainer/)<br><img src = "https://poloclub.github.io/transformer-explainer/article_assets/attention.png" width = "480" />
+      Video: [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs)
+      
+      <img src = "https://i.ytimg.com/vi/LPZh9BOjkQs/maxresdefault.jpg" width = "480" />
+      
+      Illustrated Guide: [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+      
+      <img src = "https://jalammar.github.io/images/t/transformer_resideual_layer_norm_3.png" width = "480" />
+      
+      Interactive: [Transformer Explainer: LLM Transformer Model Visually Explained](https://poloclub.github.io/transformer-explainer/)
+      
+      <img src = "https://poloclub.github.io/transformer-explainer/article_assets/attention.png" width = "480" />
 
 ## History of Generative Art and AI Art Examples
 
