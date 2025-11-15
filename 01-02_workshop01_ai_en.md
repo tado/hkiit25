@@ -103,7 +103,7 @@ The emergence of Generative AI is similar to the advent of internet search engin
 
 ### A Curator's Perspective: What Counts as Art?
 
-<img src = "https://static01.nyt.com/images/2025/10/19/multimedia/19sp-finearts-AI-05-kvzt/19sp-finearts-AI-05-kvzt-articleLarge.jpg?quality=75&auto=webp&disable=upscale" width = "480" />
+<img src = "https://static01.nyt.com/images/2025/10/19/multimedia/19sp-finearts-AI-02-kvzt/19sp-finearts-AI-02-kvzt-articleLarge.jpg?quality=75&auto=webp&disable=upscale" width = "480" />
 
   * According to The New York Times article "[Amid the A.I. Deluge, What Counts as Art?](https://www.nytimes.com/2025/10/18/arts/design/artificial-intelligence-art-museums.html)," many curators believe the value of AI art lies not in its technical novelty, but in the artist's "**intention**" and "**process**" behind it.
   * A MoMA curator states, "The technology isn't the art; ultimately, it's the **individual creativity and vision** that matters."
