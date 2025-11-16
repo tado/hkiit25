@@ -254,8 +254,8 @@ $: s("{bd sd, rim hh oh}")
 ### What is Euclidean Rhythm?
 
 * A rhythm pattern generated based on the Euclidean Algorithm.
-
-<img src = "https://www.researchgate.net/publication/237419500/figure/fig2/AS:669550274174991@1536644633521/a-The-Euclidean-rhythm-E3-8-is-the-Cuban-tresillo-b-The-Euclidean-rhythm-E5-8.png" width = "640" />
+* left: (3, 8), right: (5, 8)
+<img src="https://i0.wp.com/yoppa.org/wp-content/uploads/2024/10/a-The-Euclidean-rhythm-E3-8-is-the-Cuban-tresillo-b-The-Euclidean-rhythm-E5-8.png?w=850&ssl=1" width="640" />
 
 * Found in various folk music rhythm patterns around the world.
 * Examples: Cuban Tresillo, Brazilian Samba, Agadez in West Africa, etc.
