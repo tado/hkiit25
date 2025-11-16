@@ -16,8 +16,8 @@ Day 2: (12/08)
 
 Day 3: (12/09)
 - [Workshop 4: TidalCycles Practical Tutorai 1 - Rhythm and Effects](03-01_workshop04_rhythm_en.md)
-  - [Rhythm Creation](03-01_workshop04_rhythm_en.md)
-- Workshop 5: TidalCycles Practical Tutorial 2 - Chords and Scale.
+- [Workshop 5: TidalCycles Practical Tutorial 2 - Chords and Scale.](03-02_workshop05_harmony_en.md)
+  
 
 Day 4: (12/10)
 - Workshop 6: TouchDesigner Installation and Introduction
