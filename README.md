@@ -15,7 +15,8 @@ Day 2: (12/08)
 - [Workshop 3: What is Live Coding?](02-02_workshop03_whatis_livecoding_en.md) /  [TidalCycles Basic Tutorial](https://tidalcycles.org/docs/patternlib/tutorials/workshop)
 
 Day 3: (12/09)
-- Workshop 4: TidalCycles Practical Tutorai 1
+- [Workshop 4: TidalCycles Practical Tutorai 1 - Rhythm and Effects](03-01_workshop04_rhythm_en.md)
+  - [Rhythm Creation](03-01_workshop04_rhythm_en.md)
 - Workshop 5: TidalCycles Practical Tutorial 2
 
 Day 4: (12/10)
