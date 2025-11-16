@@ -24,20 +24,20 @@ pre, code {
 
 ---
 
-## 音符と旋律
+## Notes and Melodies
 
 ---
 
-### ドラムからシンセサイザーへ
+### From Drums to Synthesizers
 
-- シーケンスのパートは主にドラムなどのサンプリング (あらかじめ録音された音)
-- このパートでは、ピアノやシンセサイザーのように音程のある楽器を使う
+- The sequence parts are mainly sampling (pre-recorded sounds) like drums.
+- In this part, we will use pitched instruments like pianos and synthesizers.
 
 <img src="https://yoppa.org/wp-content/uploads/2025/11/Screenshot-2025-11-16-153805-scaled.png" width="640"/>
 
 ---
 
-### 数字による音程の指定
+### Specifying Pitch with Numbers
 
 ```haskell
 -- tidalcycles
@@ -48,10 +48,10 @@ d1 $ note "0 4 7 11" # s "superpiano"
 note("48 52 55 59").sound("piano")
 ```
 
-- 音符 (ノート) は note() で生成する
-- 数値のシーケンスが音程 (音の高さ) になる
-- 数値はMIDIノート番号
-- ピアノの中心のド「C」は60 (TidalCyclesでは0)
+- Notes are generated with `note()`.
+- A sequence of numbers becomes the pitch.
+- The numbers are MIDI note numbers.
+- Middle C on the piano is 60 (or 0 in TidalCycles).
 
 ---
 
@@ -59,7 +59,7 @@ note("48 52 55 59").sound("piano")
 
 ---
 
-### 文字(音階)による音符の指定
+### Specifying Notes by Letter
 
 ```haskell
 -- tidalcycles
@@ -70,12 +70,12 @@ d1 $ note "c e g b" # s "superpiano"
 note("c e g b").sound("piano")
 ```
 
-- 英語の音階名で指定
-- c (ド)、d (レ) 、e (ミ)、f (ファ)、g (ソ)、a (ラ)、b (シ)
+- Specify by English note names.
+- c (Do), d (Re), e (Mi), f (Fa), g (Sol), a (La), b (Si)
 
 ---
 
-### オクターブの指定
+### Specifying the Octave
 ```haskell
 -- tidalcycles
 d1 $ note "c4 e4 g4 b4" # s "superpiano" 
@@ -84,13 +84,13 @@ d1 $ note "c4 e4 g4 b4" # s "superpiano"
 // Strudel
 note("c4 e4 g4 b4").sound("piano")
 ```
-- 音階名 + 数値: オクターブを指定
+- Note name + number: specifies the octave.
 
 ---
 
-### 半音階 (シャープ・フラット)
+### Chromatic Scale (Sharps and Flats)
 
-フラット (♭) : 半音下げる
+Flat (♭): Lower by a semitone
 
 ```haskell
 -- tidalcycles
@@ -102,7 +102,7 @@ note("c4 d4 ef4 g4").sound("piano")
 ```
 ---
 
-シャープ (♯) : 半音上げる
+Sharp (♯): Raise by a semitone
 
 ```haskell
 -- tidalcycles
@@ -113,12 +113,12 @@ d1 $ note "c4 d4 e4 gs4" # s "superpiano"
 note("c4 d4 e4 gs4").sound("piano")
 ```
 
-- フラット (半音下げ) : 音階名 + f
-- フラット (半音下げ) : 音階名 + s
+- Flat (lower by a semitone): note name + f
+- Sharp (raise by a semitone): note name + s
 
 ---
 
-### 音色を変える
+### Changing the Timbre
 
 ```haskell
 -- tidalcycles
@@ -130,12 +130,12 @@ d1
 note("c4 e4 g4 b4").sound("supersaw")
 ```
 
-- sound( ) の中身を別のものに変えてみる → 例: supersaw
-- その他にも様々な音色が使用できる
+- Try changing the content of `sound()` to something else → e.g., `supersaw`.
+- Many other timbres are also available.
 
 ---
 
-### 音色のシーケンス
+### Timbre Sequence
 
 ```haskell
 -- tidalcycles
@@ -149,13 +149,13 @@ note("c4 d4 e4 [g4, b4]")
   .sound("piano gm_electric_guitar_muted")
 ```
 
-- sound( ) の中で複数の楽器をスペースを挟んで列挙
-- 音色が途中で切り替わる
-- シーケンスを組んでいくことも可能
+- List multiple instruments in `sound()` separated by spaces.
+- The timbre changes during the sequence.
+- It's also possible to build up a sequence.
 
 ---
 
-### 音色を重ねる
+### Layering Timbres
 
 ```haskell
 -- tidalcycles
@@ -169,13 +169,13 @@ note("c4 d4 e4 [g4, b4]")
   .sound("piano, gm_electric_guitar_muted")
 ```
 
-- sound( ) の中をスペースでなくコンマ (, ) で区切る
-- シーケンスではなく複数の楽器を同時に演奏
-- 楽器のスタック
+- Separate with a comma (`,`) instead of a space in `sound()`.
+- This plays multiple instruments simultaneously, not as a sequence.
+- This is called stacking instruments.
 
 ---
 
-### 1シーケンスをサイクルごとに
+### One Sequence per Cycle
 
 ```haskell
 -- tidalcycles
@@ -189,13 +189,13 @@ note("<[c3 g3]*4 [c3 f3]*4 [d3 g3]*4 [c3 c4]*4>/2")
   .sound("supersaw")
 ```
 
-- 1サイクルずつシーケンスを変化
-- < > で囲んだ部分でサブシーケンスを組んでいく
-- 順番に演奏される!
+- The sequence changes with each cycle.
+- Use `< >` to create a sub-sequence.
+- They are played in order!
 
 ---
 
-### 交互に演奏
+### Alternating Performance
 
 ```haskell
 -- tidalcycles
@@ -209,12 +209,12 @@ note("[c3 <e3 f3 g3 b3>]*2")
   .sound("supersaw")
 ```
 
-- 通常のシーケンスと < > を組み合わせ
-- 交互に演奏が変化、オルタネイト
+- Combine a normal sequence with `< >`.
+- The performance alternates.
 
 ---
 
-### 音を引き伸ばす
+### Stretching a Note
 
 ```haskell
 -- tidalcycles
@@ -228,12 +228,12 @@ note("[c3@3 <e3 f3 g3 b3>]*2")
   .sound("supersaw")
 ```
 
-- 音階@数値 で音が引き伸ばされる
-- @3 は3倍の長さ
+- A note is stretched with `note@number`.
+- `@3` means three times the length.
 
 ---
 
-### 音符を複製 (Replicate)
+### Replicating a Note
 
 ```haskell
 -- tidalcycles
@@ -247,25 +247,25 @@ note("[c3!3 <e3 f3 g3 b3>]*2")
   .sound("supersaw")
 ```
 
-- ! でノートを複製
-- @ に似ているが音を伸ばさず区切る
+- Replicate a note with `!`.
+- It's similar to `@` but it retriggers the note instead of stretching it.
 
 ---
 
 ## Let’s Try!
 
-- ここまでの内容を駆使して、オリジナルのシーケンスを作成してみよう!
-- ドラムサウンド、楽器、双方のミックス ...etc.
+- Using what you've learned so far, try creating your own original sequence!
+- Mix drum sounds, instruments, etc.
 
 ---
 
-## コード(chord、和音)とスケール(scale、音階)
+## Chords and Scales
 
 ---
 
-### 同時に音を鳴らす
+### Playing Sounds Simultaneously
 
-[ ] で囲ってコンマで区切ると同時に音が鳴る → リスト
+Enclosing notes in `[ ]` and separating them with commas plays them at the same time. This creates a list.
 ```haskell
 -- TidalCycles
 d1
@@ -279,17 +279,17 @@ note("[c, e, g]").sound("piano*4")
 
 ---
 
-### コード (Chord = 和音) を演奏する
+### Playing a Chord
 
-コード (Chord = 和音) とは?
-複数 (通常は3音以上) の音程の音を同時に発音すること
+What is a chord?
+It's when you play multiple (usually three or more) notes of different pitches at the same time.
 
 <img src="https://jp.yamaha.com/files/ocp/ja_jp/services/teachers/music_pal/study/chord/code1_05.gif"/><br>
 <img src="https://jp.yamaha.com/files/ocp/ja_jp/services/teachers/music_pal/study/chord/code1_06.gif"/>
 
 ---
 
-### コードネームでリストを生成 → 和音へ
+### Generating a List from a Chord Name → to a Chord
 
 ```haskell
 -- TidalCycles
@@ -305,7 +305,7 @@ $: sound("piano*4")
 ```
 ---
 
-### いろいろなコードを試してみる
+### Trying Different Chords
 
 ```haskell
 -- TidalCycles
@@ -313,7 +313,7 @@ d1
   $ s "superpiano*4" 
   # note "<c'maj f'maj g'maj c'maj>“
 
--- よりきれいにボイシング
+-- For a nicer voicing
 d1
   $ s "superpiano"
   # note "<c5'maj f4'maj'ii g4'dom7'ii c5'maj'i>"
@@ -327,7 +327,7 @@ $: sound("piano*4")
 
 ---
 
-### カノン進行 - C, G, Am, Em, F, C, F, G
+### Pachelbel's Canon Progression - C, G, Am, Em, F, C, F, G
 
 ```haskell
 -- TidalCycles
@@ -335,7 +335,7 @@ d1
   $ s "superpiano*2" 
   # note "<c'maj g'maj a'min e'min f'maj c'maj f'maj g'maj>“
 
--- カノン進行 きれいにボイシング
+-- Canon progression with nice voicing
 d1
   $ s "superpiano*2" 
   # note "<c4'maj'ii g4'maj a3'min'ii e4'min f4'maj c4'maj f4'maj g3'dom7'iii>"  
@@ -349,7 +349,7 @@ $: sound("piano*4")
 
 ---
 
-### 王道進行 (J-POP風) - F△7–G7–Em7–Am
+### "Royal Road" Progression (J-POP Style) - F△7–G7–Em7–Am
 
 ```haskell
 -- TidalCycles
@@ -366,7 +366,7 @@ $: sound("piano*2")
 
 ---
 
-### 王道進行アンサンブル
+### "Royal Road" Progression Ensemble
 
 ```haskell
 -- TidalCycles
@@ -406,7 +406,7 @@ $: sound("bd(3, 8), hh(4, 8, 1)").bank("RolandTR909")
 ```
 ---
 
-### 王道進行アンサンブル + 分数コード
+### "Royal Road" Progression Ensemble + Slash Chords
 
 ```haskell
 --- TidalCycles
@@ -447,45 +447,45 @@ $: sound("bd(4, 8), hh(4, 8, 1)").bank("RolandMC303")
 ```
 ---
 
-## スケール (旋法)
+## Scales (Modes)
 
 ---
 
-### スケール (旋法) とは
+### What is a Scale (Mode)?
 
-- 音楽で使用される音の集まりを体系的に並べたもの
-- 音楽作品の基礎を形成し、曲の雰囲気や特徴を決定づける重要な要素
-- 代表的なスケール
-  - メジャースケール（長音階）
-  - マイナースケール（短音階）
-  - モード（旋法）※ 後述
-  - ペンタトニックスケール（五音音階）
-  - クロマティックスケール（半音階）
+- A systematically arranged collection of notes used in music.
+- It forms the foundation of a musical piece and is a key element in determining its mood and character.
+- Representative Scales:
+  - Major Scale
+  - Minor Scale
+  - Modes (discussed later)
+  - Pentatonic Scale
+  - Chromatic Scale
 
 ---  
 
-### モード・ジャズ (Modal Jazz)
+### Modal Jazz
 
-- 特定のモード（音階）を基盤に即興演奏を展開するジャズのスタイル
-- 従来のコード進行に依存しない
-- モードの特徴的な音と雰囲気を活かした自由なアプローチが特徴
-  - 例: Miles Davis “Kind of Blue”
-  - Dドリアンモード → E♭ドリアンモード → Dドリアンモード
+- A style of jazz that involves improvisation based on a specific mode (scale).
+- It does not rely on traditional chord progressions.
+- It is characterized by a free approach that takes advantage of the characteristic sounds and atmosphere of the mode.
+  - Example: Miles Davis’s “Kind of Blue”
+  - D Dorian mode → E♭ Dorian mode → D Dorian mode
   - [Spotify: Modal Jazz](https://open.spotify.com/playlist/0QNQ7nG51z51BVsciP99SU?si=e50cf7e04f9149a4&nd=1&dlsi=4663664f16aa4c52)
 
 ---
 
-### 7つのモード
+### The Seven Modes
 
-Ionian（イオニアン）Dorian （ドリアン）Phrygian（フリジアン）Lydian（リディアン）Mixolydian（ミクソリディアン）Aeolian（エオリアン）Locrian（ロクリアン）
+Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian
 
 <img src="https://www.shockwave-sound.com/blog/wp-content/uploads/2018/06/7Modes.jpg" width="720"/>
 
 ---
 
-### スケールを演奏する
+### Playing a Scale
 
-イオニアン (Ionian) スケール
+Ionian Scale
 
 ```haskell
 -- TidalCycles
@@ -501,9 +501,9 @@ $: sound("piano*8")
 ```
 ---
 
-### 定義済みのスケール
+### Pre-defined Scales
 
-大量にスケールが定義されている! 試してみよう!
+A large number of scales are pre-defined! Let's try them out!
 
 ```
 -- TidalCycles
@@ -552,7 +552,7 @@ messiaen's mode #7, chromatic
 ```
 ---
 
-### スケールをランダムに演奏する
+### Playing a Scale Randomly
 
 ```haskell
 -- TidalCycles
@@ -569,7 +569,7 @@ $: sound("piano*8")
 
 ---
 
-### スケールによる即興演奏
+### Improvising with Scales
 
 ```haskell
 -- TidalCycles
