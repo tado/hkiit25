@@ -1,4 +1,4 @@
-# Workshop 2: TidalCycles Install Party
+# Workshop 03: TidalCycles Install Party
 
 In this session, we will install TidalCycles, the live coding environment we will mainly use in the upcoming workshops. TidalCycles is a library written in the Haskell programming language that allows you to express music with code and perform it in real-time. The installation can be a bit tricky. Let's proceed step-by-step!
 
