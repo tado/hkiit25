@@ -9,7 +9,7 @@ The workshop information for Hong Kong Institute of Information Technology (HKII
 Day 0: (12/06)
 - [Opening Session: Introduction to the workshop's purpose and overview](01-01_workshop_intro_en.md)
 - [Workshop 1: The Future of Generative AI and Creation](01-02_workshop01_ai_en.md)
-- [Workshop 2: What is Live Coding?](02-01_workshop02_whatis_livecoding_en.md)
+- [Workshop 2: What is Live Coding?](02-01_workshop02_whatis_livecoding_en.md) / Live coding demonstration
 
 Day 1: (12/08)
 - [Opening Session: Introduction to the workshop's purpose and overview](01-01_workshop_intro_en.md)
