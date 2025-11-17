@@ -158,55 +158,6 @@ TouchDesignerはアプリケーションをインストールした後に、ア�
 
 ---
 
-### AMCのMacにインストールされているTouchDesigner使用の注意
-
-AMCの実習室の全てのiMacにもTouchDesignerがインストールされています。しかしながら、AMCのMacのファイルは起動する度に保存したファイルは消去されて元の状態にリセットされるため、使用する際には以下の手順で毎回キーの登録と削除を行う必要があります。
-
----
-
-**ユーザーアカウントの作成**
-
-- キーは各自のDerivativeアカウントに付与された個人のものを使用します
-- あらかじめ「[SIGN UP FOR AN ACCOUNT](https://derivative.ca/user/register)」よりユーザー登録しましょう
-
----
-
-**起動とキーの有効化**
-
-- コンピューターを起動し、TouchDesignerのアプリケーションを起動
-- 上部メニューから「Dialogs > Key Mangager」を選択
-- 以下の画面が出力されるので登録した情報でログイン<br/>![](https://yoppa.org/wp-content/uploads/2024/04/Screenshot-2024-04-02-174203.png)
-
----
-
-- キーを選択して有効化する<br/>![](https://docs.derivative.ca/images/4/4f/KeyManagerCreate.png)
-
----
-
-**TouchDesignerのアプリケーションを使用**
-
-- 個人のノートPCで使用している人と同じようにTouchDesignerが使用可能となります
-
----
-
-**キーの削除と終了**
-
-- アプリケーションを終了する前に必ずキーをアプリから削除します
-- 上部メニューから「Dialogs > Key Mangager」を選択
-- Disableのタブを選択し、Disable Keyボタンを押す
-
-  ![height:400px](https://yoppa.org/wp-content/uploads/2024/04/Screenshot-2024-04-03-054538.jpg)
-
----
-
-**システム終了**
-
-- アプリケーションを終了し、システム終了
-
-※この操作を行わないと毎回使用できるキーが減っていってしまうので注意してください!
-
----
-
 ## TouchDesignerはじめの一歩
 
 本日は、まずTouchDesignerはじめの一歩として「バナナを回す」という課題をやってみたいと思います。以下の映像のチュートリアルに準拠しています。
