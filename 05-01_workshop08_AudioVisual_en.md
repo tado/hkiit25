@@ -77,7 +77,9 @@ Key points:
 - Each is analyzed with Analyze CHOP's RMS Power and visualized.
 - Changes in musical components (bass drum, hi-hat, etc.) can be observed.
 
-<img width="640" alt="img" src="https://i0.wp.com/www.allaboutcircuits.com/uploads/articles/Types_of_Filters.jpg?ssl=1">Various filter types: Low-pass (LPF), High-pass (HPF), Band-pass (BPF), Band-stop
+<img width="640" alt="img" src="https://i0.wp.com/www.allaboutcircuits.com/uploads/articles/Types_of_Filters.jpg?ssl=1">
+
+Various filter types: Low-pass (LPF), High-pass (HPF), Band-pass (BPF), Band-stop
 
 ## Waveform Analysis – Basics 4: Using the Audio Analysis COMP
 
@@ -122,7 +124,9 @@ Why is frequency analysis necessary?
 
 In other words, we hear sound by decomposing it into frequency components!
 
-<img width="640" alt="img" src="https://i0.wp.com/yoppa.org/wp-content/uploads/2025/06/cochlea.png?resize=688%2C484&ssl=1">Citation: [Hearing, the cochlea, the frequency domain and Fourier’s series](https://uncommondescent.com/video/hearing-the-cochlea-the-frequency-domain-and-fouriers-series/)
+<img width="640" alt="img" src="https://i0.wp.com/yoppa.org/wp-content/uploads/2025/06/cochlea.png?resize=688%2C484&ssl=1">
+
+Citation: [Hearing, the cochlea, the frequency domain and Fourier’s series](https://uncommondescent.com/video/hearing-the-cochlea-the-frequency-domain-and-fouriers-series/)
 
 ### FFT and IFFT
 
