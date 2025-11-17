@@ -22,7 +22,7 @@ Day 2: (12/09)
 - [Workshop 5: TidalCycles Practical Tutorial 2 - Chords and Scale.](03-02_workshop05_harmony_en.md)
 
 Day 3: (12/10)
-- Workshop 6: TouchDesigner Installation and Introduction
+- [Workshop 6: TouchDesigner Introduction and Installation](04-01_workshop06_TDintro_en.md)
 - Workshop 7: TouchDesigner Basic and Intermediate Tutorial
 
 Day 4: (12/11)
