@@ -23,7 +23,7 @@ Day 2: (12/09)
 
 Day 3: (12/10)
 - [Workshop 6: TouchDesigner Introduction and Installation](04-01_workshop06_TDintro_en.md)
-- Workshop 7: TouchDesigner Basic and Intermediate Tutorial
+- [Workshop 7: TouchDesigner Basic and Intermediate Tutorial](04-02_workshop07_TDTop_en.md)
 
 Day 4: (12/11)
 - Workshop 8: Audio-Visual
