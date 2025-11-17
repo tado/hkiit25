@@ -1,7 +1,5 @@
 # Workshop 06: TouchDesignerの紹介とインストール
 
-<img src="https://lh3.googleusercontent.com/pw/AP1GczMDtZp2IQdMwkwQu4VGm6OSxWe1OjlKD4X90FOuBLZQfS_ozciaP_rlCI_T51VQ0cckdRrg2cDJfnM5cHX-iIUcyqJ2cgXWDVkERvrTu2zI1MRKcDeksPbjqT6GfE4fVnrs4FXwF_JmecxeE2nVIPYjXw=w1486-h989-s-no-gm?authuser=0" width="640" />
-
 ## TouchDesignerについて
 
 <img src="https://i.ytimg.com/vi/wmM1lCWtn6o/maxresdefault.jpg" width="640" />
