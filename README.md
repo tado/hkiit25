@@ -26,7 +26,7 @@ Day 3: (12/10)
 - [Workshop 7: TouchDesigner Basic and Intermediate Tutorial](04-02_workshop07_TDTop_en.md)
 
 Day 4: (12/11)
-- [Workshop 8: Audio-Visual](05-01_workshop08_AudioVisual_en.md)
+- [Workshop 8: Audiovisual, Sound Visualization](05-01_workshop08_AudioVisual_en.md)
 - Workshop 9: Live Performance Production
 
 Day 5: (12/12) **Presentation Day**
