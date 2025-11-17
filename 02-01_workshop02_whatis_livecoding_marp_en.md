@@ -19,7 +19,7 @@ pre, code {
   line-height: 1.5;
 }
 </style>
-# Workshop 03<br/>What is Live Coding?
+# Workshop 02<br/>What is Live Coding?
 
 Atsushi Tadokoro
 

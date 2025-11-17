@@ -20,7 +20,7 @@ pre, code {
 }
 </style>
 
-# Workshop 2: TidalCycles Installation Party
+# Workshop 03: TidalCycles Installation Party
 
 ---
 

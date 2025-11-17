@@ -1,4 +1,4 @@
-# Workshop: Generative AI and the Future of Creation
+# Workshop 01: Generative AI and the Future of Creation
 
 ## Introduction
 

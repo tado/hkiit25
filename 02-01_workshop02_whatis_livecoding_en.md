@@ -1,4 +1,4 @@
-# Workshop 03<br/>What is Live Coding?
+# Workshop 02<br/>What is Live Coding?
 
 # Introduction
 

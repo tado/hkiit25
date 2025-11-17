@@ -19,7 +19,7 @@ pre, code {
   line-height: 1.5;
 }
 </style>
-# ライブコーディングって何だろう?
+# Workshop 02:<br>ライブコーディングって何だろう?
 
 田所 淳
 
