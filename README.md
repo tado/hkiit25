@@ -27,7 +27,7 @@ Day 3: (12/10)
 
 Day 4: (12/11)
 - [Workshop 8: Audiovisual, Sound Visualization](05-01_workshop08_AudioVisual_en.md)
-- Workshop 9: Live Performance Production
+- [Workshop 9: Live Performance Practice](05-02_workshop09_LivePerformance_en.md)
 
 Day 5: (12/12) **Presentation Day**
 - Rehasal
