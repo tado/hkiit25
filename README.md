@@ -1,6 +1,6 @@
-# HKIIT workshop 2025
+# Workshop 2025
 
-The workshop information for Hong Kong Institute of Information Technology (HKIIT) 2025.
+The workshop information for 2025.
 
 [Workshop schedule](00_ws_schedule_en.md)
 
